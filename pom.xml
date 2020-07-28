@@ -30,7 +30,7 @@
         <scala-bcrypt_2.10.version>3.1</scala-bcrypt_2.10.version>
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
         <ok-http.version>4.7.2</ok-http.version>
-        <c3p0.version>0.9.5.2</c3p0.version>
+        <c3p0.version>0.9.5.4</c3p0.version>
         <quartz-springboot.version>2.2.5.RELEASE</quartz-springboot.version>
         <spring-boot-starter-activemq.version>2.3.1.RELEASE</spring-boot-starter-activemq.version>
         <itextpdf.version>5.5.13.1</itextpdf.version>
