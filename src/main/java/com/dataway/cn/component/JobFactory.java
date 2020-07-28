@@ -7,6 +7,7 @@ import org.springframework.scheduling.quartz.AdaptableJobFactory;
 import org.springframework.stereotype.Component;
 
 /**
+ * quartz 定时任务工厂配置
  * @author phil
  * @date 2020/06/23 12:31
  */

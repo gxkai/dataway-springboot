@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 import javax.xml.ws.Endpoint;
 
 /**
+ * webservice 发布
  * @author phil
  * @date 2020/07/14 14:08
  */

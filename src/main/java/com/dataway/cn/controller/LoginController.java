@@ -50,7 +50,7 @@ public class LoginController {
     @ApiImplicitParams({
             @ApiImplicitParam(
                     name = "requestParam",
-                    paramType="body",
+                    paramType="query",
                     value = "参数以JSON的格式放在这里",
                     defaultValue = "{\"identity\":\"admin\",\"password\":\"123456\"}",
                     dataType = "string")
