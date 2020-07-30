@@ -32,7 +32,9 @@ public class ResponseHelper implements Serializable {
     public static <T> WebResult<T> failed(T data) {
         return failedWith(false,data, ResultStatusCode.ERROR.getCode(), ResultStatusCode.ERROR.getMsg());
     }
-
+    public static <T> WebResult<T> failed(ResultStatusCode resultStatusCode,T data) {
+        return failedWith(false,data, resultStatusCode.getCode(), resultStatusCode.getMsg());
+    }
     public static <T> WebResult<T> succeed(boolean success,T data, int code, String msg) {
         return new WebResult<>(success, code, msg, data);
     }

@@ -16,7 +16,7 @@ import java.util.Date;
  * @date 2020/06/09 18:10
  */
 public class ParamXssPassAspect extends  AbstractAspectManager{
-    private Logger logger = LoggerFactory.getLogger(ParamXssPassAspect.class);
+    private final Logger logger = LoggerFactory.getLogger(ParamXssPassAspect.class);
     public ParamXssPassAspect(AspectApi aspectApi){
         super(aspectApi);
     }

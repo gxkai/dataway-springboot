@@ -1,14 +1,13 @@
 package com.dataway.cn.activeMq;
 
 import org.springframework.jms.annotation.JmsListener;
-import org.springframework.stereotype.Component;
 
 /**
  * ActiveMq 消费者
  * @author phil
  * @date 2020/07/28 15:57
  */
-@Component
+/*@Component*/
 public class ActiveMqConsumer {
 
     /**

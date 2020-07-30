@@ -27,4 +27,7 @@ public class StringUtil {
         }
         return retParam;
     }
+    public static String format(String target, Object... params) {
+        return String.format(target, params);
+    }
 }

@@ -14,6 +14,14 @@ public class CustomException extends Exception {
     public CustomException(String message){
         super(message);
     }
+    public CustomException(Throwable throwable) {
+        super(throwable);
+    }
+
+    public CustomException(String message, Throwable throwable) {
+        super(message, throwable);
+    }
+
     public CustomException(String msg,String code){
         super(code+ BaseConstant.CUSTOM_EXCEPTION_SEPARATOR +msg);
     }

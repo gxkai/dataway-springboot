@@ -19,9 +19,9 @@ public class BeanUtil {
         } else if (aObj instanceof Date) {
             return false;
         } else if (aObj instanceof Collection) {
-            return isEmpty((Collection) aObj);
+            return isEmpty((Collection<?>) aObj);
         } else if (aObj instanceof Map) {
-            return isEmpty((Map) aObj);
+            return isEmpty((Map<?,?>) aObj);
         } else if (aObj != null && aObj.getClass().isArray()) {
             return isEmptyArray(aObj);
         } else {
@@ -30,7 +30,7 @@ public class BeanUtil {
     }
 
     private static boolean isEmptyArray(Object array) {
-        int length = 0;
+        int length;
         if (array instanceof int[]) {
             length = ((int[]) array).length;
         } else if (array instanceof byte[]) {
@@ -61,11 +61,11 @@ public class BeanUtil {
         return aLong == null;
     }
 
-    public static boolean isEmpty(Map m) {
+    public static boolean isEmpty(Map<?,?> m) {
         return m == null || m.size() == 0;
     }
 
-    public static boolean isEmpty(Collection c) {
+    public static boolean isEmpty(Collection<?> c) {
         return c == null || c.size() == 0;
     }
 
@@ -106,5 +106,4 @@ public class BeanUtil {
     public static boolean equalsIgnoreCase(String str1, String str2) {
         return str1 != null ? str1.equalsIgnoreCase(str2) : str2 == null;
     }
-
 }

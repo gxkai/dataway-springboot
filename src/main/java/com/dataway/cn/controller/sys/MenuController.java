@@ -7,8 +7,10 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.dataway.cn.annotation.AccessLimit;
 import com.dataway.cn.annotation.SysLog;
 import com.dataway.cn.annotation.ValidationParam;
+import com.dataway.cn.exception.CustomException;
 import com.dataway.cn.model.sys.Menu;
 import com.dataway.cn.result.ResponseHelper;
+import com.dataway.cn.result.ResultStatusCode;
 import com.dataway.cn.result.WebResult;
 import com.dataway.cn.service.sys.IMenuService;
 import io.swagger.annotations.Api;
@@ -16,12 +18,15 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
+import org.apache.commons.beanutils.BeanUtils;
 import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 菜单前端控制器
@@ -40,7 +45,7 @@ public class MenuController {
      *  分页菜单列表
      *  拥有超级管理员或管理员角色的用户可以访问这个接口,换成角色控制权限,改变请看MyRealm.class
      */
-    @GetMapping("/pageList")
+    @RequestMapping(value = "/pageList",method = RequestMethod.GET)
     @SysLog(action="分页获取菜单列表",modelName= "Menu",description="前台带分页条件调用菜单列表接口")
     @AccessLimit(perSecond = 10,timeOut = 500)
     @RequiresPermissions(value = {"admin"},logical = Logical.OR)
@@ -58,11 +63,15 @@ public class MenuController {
                     required = true,
                     dataType = "string")
     })
-    public WebResult<Page<Menu>> getPageList(@ValidationParam("page,menu") @RequestParam(name = "params") String params){
-
-        JSONObject paramsJson = JSONObject.parseObject(params);
-        Menu menu = JSONObject.parseObject(paramsJson.getString("menu"),Menu.class);
-        Page<Menu> page = JSONObject.parseObject(paramsJson.getString("page"),new TypeReference<Page<Menu>>(){});
+    public WebResult<Page<Menu>> getPageList(@ValidationParam("page,menu") @RequestParam Map<String,Object> paramsJson) throws CustomException {
+        JSONObject jsonObject = new JSONObject();
+        try {
+            BeanUtils.populate(jsonObject,paramsJson);
+        } catch (IllegalAccessException | InvocationTargetException e) {
+            return ResponseHelper.failed(ResultStatusCode.JSON_STRING_ERROR,new Page<>());
+        }
+        Menu menu = JSONObject.parseObject(jsonObject.getString("menu"),Menu.class);
+        Page<Menu> page = JSONObject.parseObject(jsonObject.getString("page"),new TypeReference<Page<Menu>>(){});
 
         //根据菜单名称查分页
         return ResponseHelper.succeed(iMenuService.getMenusByPage(page,menu));

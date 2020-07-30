@@ -4,9 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * 类型转换Util
@@ -32,24 +30,6 @@ public class CastUtil {
             return result;
         }
         return null;
-    }
-
-    /**
-     * Object 转 Map
-     * @param obj:被转对象
-     * @return Map<?,?>
-     */
-    public static <String, V> Map<String,V> castMapObject(Object obj, Class<Map<String,V>> clazz){
-
-        if(BeanUtil.isEmpty(obj)){
-            return new HashMap<>(16);
-        }
-        Map<String,V> result = new HashMap<>(16);
-        if (obj instanceof Map<?,?>){
-            result.putAll(clazz.cast(obj));
-            return result;
-        }
-        return new HashMap<>(16);
     }
 
 }

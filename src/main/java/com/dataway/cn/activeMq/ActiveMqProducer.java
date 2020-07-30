@@ -2,7 +2,6 @@ package com.dataway.cn.activeMq;
 
 import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import javax.jms.Queue;
 import javax.jms.Topic;
@@ -12,7 +11,7 @@ import javax.jms.Topic;
  * @author phil
  * @date 2020/07/28 16:03
  */
-@RestController
+//@RestController
 public class ActiveMqProducer {
 
     private final JmsMessagingTemplate jmsTemplate;

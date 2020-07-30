@@ -5,9 +5,12 @@ import com.dataway.cn.annotation.ValidationParam;
 import com.dataway.cn.exception.ParamJsonException;
 import com.dataway.cn.utils.BeanUtil;
 import com.dataway.cn.utils.StringUtil;
+import org.apache.commons.beanutils.BeanUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.Map;
 
 /**
  * 验证参数切面
@@ -28,7 +31,6 @@ public class ValidationParamAspect extends AbstractAspectManager{
         executing(pjp,method);
         return null;
     }
-
     @Override
     protected Object executing(ProceedingJoinPoint pjp, Method method) {
         //获取注解的value值返回
@@ -41,6 +43,17 @@ public class ValidationParamAspect extends AbstractAspectManager{
                     JSONObject jsonObject = JSONObject.parseObject(o.toString());
                     //是否有所有必须参数
                     hasAllRequired(jsonObject, validationParamValue);
+                }else if (o instanceof Map){
+                    JSONObject jsonObject = new JSONObject();
+                    try {
+
+                        BeanUtils.populate(jsonObject,(Map<String,?>) o);
+                        //是否有所有必须参数
+                        hasAllRequired(jsonObject, validationParamValue);
+                    } catch (IllegalAccessException | InvocationTargetException e) {
+                        e.printStackTrace();
+                        throw new ParamJsonException("参数转换异常");
+                    }
                 }
             }
         }
