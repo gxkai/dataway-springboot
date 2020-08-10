@@ -2,6 +2,7 @@ package com.dataway.cn.test;
 
 import com.alibaba.excel.EasyExcel;
 import com.dataway.cn.utils.FileUtil;
+import com.dataway.cn.utils.SecurityUtil;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
@@ -80,5 +81,13 @@ public class Test3 {
             list.add(data);
         }
         return list;
+    }
+
+    @Test
+    private void md5Test(){
+        String data1 = SecurityUtil.stringToMd5("中文");
+        String data2 = SecurityUtil.stringToMd5("中文");
+        System.out.println(data1);
+        System.out.println(data2);
     }
 }

@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.math.BigDecimal;
 import java.util.*;
 
 /**
@@ -192,6 +193,9 @@ public class XmlUtil {
         System.out.println(mapToXml(map1,new StringBuffer()));
 
         System.out.println(xmlToMap(xml));
+        BigDecimal bigDecimal1 = new BigDecimal("0.02").multiply(new BigDecimal(100));
+        System.out.println(bigDecimal1.toBigInteger());
+        System.out.println(bigDecimal1.toString());
     }
 
 }
