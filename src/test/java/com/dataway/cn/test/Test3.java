@@ -84,10 +84,16 @@ public class Test3 {
     }
 
     @Test
-    private void md5Test(){
+    public void md5Test(){
+        System.out.println("===========================");
         String data1 = SecurityUtil.stringToMd5("中文");
         String data2 = SecurityUtil.stringToMd5("中文");
+        String data3 = SecurityUtil.stringToMd5("English");
+        String data4 = SecurityUtil.stringToMd5("English");
         System.out.println(data1);
         System.out.println(data2);
+        System.out.println(data3);
+        System.out.println(data4);
     }
+
 }
