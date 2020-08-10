@@ -109,6 +109,10 @@ public class ShiroConfig{
         filterRuleMap.put("/swagger-ui.html", "anon");
         filterRuleMap.put("/swagger-resources/**", "anon");
         filterRuleMap.put("/swagger/**","anon");
+
+        //放行dataWay的管理页面
+        filterRuleMap.put("/interface-ui", "anon");
+
         //这个一定要放开，否则会导致无法访问
         filterRuleMap.put("/v2/api-docs","anon");
         filterRuleMap.put("/webjars/**","anon");
