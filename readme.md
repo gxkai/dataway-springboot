@@ -14,3 +14,5 @@
         <version>${net-hasor.version}</version>
     </dependency>
 ```
+2. 第二步：配置 Dataway，并初始化数据表
+    dataway 会提供一个界面让我们配置接口，这一点类似 Swagger 只要jar包集成就可以实现接口配置。找到我们 springboot 项目的配置文件 application.properties
