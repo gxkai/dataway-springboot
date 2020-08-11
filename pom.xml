@@ -136,13 +136,6 @@
             <version>${mybatisplus-spring-boot-starter.version}</version>
         </dependency>
 
-        <!--starter测试-->
-        <dependency>
-            <groupId>com.starter</groupId>
-            <artifactId>bases-spring-boot-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
         <!--Quartz的连接池-->
         <dependency>
             <groupId>com.mchange</groupId>
