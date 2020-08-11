@@ -1,0 +1,9 @@
+FROM yi/centos7-jdk8u151
+MAINTAINER Yi.Ma <findlymw@gmail.com>
+
+RUN yum clean all
+RUN yum -y update
+
+ADD target/*.jar eureka.jar
+EXPOSE 9999
+ENTRYPOINT ["java", "-jar", "/eureka.jar"]
