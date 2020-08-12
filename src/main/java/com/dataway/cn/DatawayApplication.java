@@ -23,6 +23,4 @@ public class DatawayApplication {
         SpringApplication.run(DatawayApplication.class, args);
     }
 
-
-
 }

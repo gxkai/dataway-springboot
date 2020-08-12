@@ -6,4 +6,4 @@ RUN yum -y update
 
 ADD target/*.jar eureka.jar
 EXPOSE 9999
-ENTRYPOINT ["java", "-jar", "/eureka.jar"]
+ENTRYPOINT ["java", "-jar", "/dataway.jar"]
