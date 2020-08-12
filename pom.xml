@@ -16,6 +16,8 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <!-- 跳过测试 -->
+        <!--<skipTests>true</skipTests>-->
         <java-jwt.version>3.10.3</java-jwt.version>
         <shiro-spring.version>1.5.3</shiro-spring.version>
         <mybatis-plus.version>3.0.1</mybatis-plus.version>
@@ -246,14 +248,23 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <!-- 开启info端口获取maven中的属性 -->
-                <executions>
+                <!--<executions>
                     <execution>
                         <goals>
                             <goal>build-info</goal>
                         </goals>
                     </execution>
-                </executions>
+                </executions>-->
             </plugin>
+            <!--添加配置跳过测试-->
+            <!--<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>-->
         </plugins>
     </build>
 
