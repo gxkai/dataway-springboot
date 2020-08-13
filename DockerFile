@@ -4,6 +4,7 @@ MAINTAINER Yi.Ma <findlymw@gmail.com>
 RUN yum clean all
 RUN yum -y update
 
-ADD target/*.jar eureka.jar
-EXPOSE 9999
-ENTRYPOINT ["java", "-jar", "/dataway.jar"]
+ADD target/*.jar dataway.jar
+RUN bash -c 'touch /dataway.jar'
+EXPOSE 8888
+ENTRYPOINT ["java","-Dfile.encoding=UTF-8", "-Dsun.jnu.encoding=UTF-8","-Djava.security.egd=file:/dev/./urandom", "-jar", "./dataway.jar"]

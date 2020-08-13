@@ -1,0 +1,71 @@
+2020-08-12 20:42:45 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:55 ] logStarting Starting DatawayApplication on DESKTOP-5Q6QS10 with PID 7884 (Y:\work_space\idea_work_space\dataway\target\classes started by Gavin in Y:\work_space\idea_work_space\dataway)
+2020-08-12 20:42:45 [ INFO ] [main] [ org.springframework.boot.SpringApplication:655 ] logStartupProfileInfo The following profiles are active: custom
+2020-08-12 20:42:50 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'shiroConfig' of type [com.dataway.cn.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$7ffe2263] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-12 20:42:50 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-12 20:42:50 [ INFO ] [main] [ org.reflections.Reflections:239 ] scan Reflections took 281 ms to scan 1 urls, producing 60 keys and 114 values 
+2020-08-12 20:42:51 [ INFO ] [main] [ com.dataway.cn.config.shiro.ShiroConfig:192 ] getUrlAndMethodSet @Pass:["/api/v1/login"]
+2020-08-12 20:42:51 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-12 20:42:52 [ INFO ] [main] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108 ] initialize Tomcat initialized with port(s): 8888 (http)
+2020-08-12 20:42:52 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-12 20:42:52 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting service [Tomcat]
+2020-08-12 20:42:52 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-12 20:42:52 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing Spring embedded WebApplicationContext
+2020-08-12 20:42:52 [ INFO ] [main] [ org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284 ] prepareWebApplicationContext Root WebApplicationContext: initialization completed in 7328 ms
+2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.spring.boot.BasicHasorConfiguration:140 ] setImportMetadata 
+ _    _                        ____              _
+| |  | |                      |  _ \            | |
+| |__| | __ _ ___  ___  _ __  | |_) | ___   ___ | |_
+|  __  |/ _` / __|/ _ \| '__| |  _ < / _ \ / _ \| __|
+| |  | | (_| \__ \ (_) | |    | |_) | (_) | (_) | |_
+|_|  |_|\__,_|___/\___/|_|    |____/ \___/ \___/ \__|
+
+2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.Hasor:224 ] build runMode at Full ,runPath at Y:\work_space\idea_work_space\dataway
+2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/core-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-core/4.1.4/hasor-core-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataway-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataway/4.1.4/hasor-dataway-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/web-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-web/4.1.4/hasor-web-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/db-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-db/4.1.4/hasor-db-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql/4.1.4/hasor-dataql-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-fx-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql-fx/4.1.4/hasor-dataql-fx-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:240 ] initEnvironment loadPackages = com.*, net.*, net.hasor.*, net.hasor.dataql.*, net.hasor.dataql.fx.*, net.hasor.dataway.*, net.hasor.db.*, net.hasor.web.*, org.*
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataway.config.DatawayModule
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:63 ] loadModule dataway api workAt /api/
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:164 ] addVariable var -> HASOR_DATAQL_DATAWAY_API_URL = /api/.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:72 ] loadModule dataway self isolation ->net.hasor.dataway.config.DatawayModule
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:91 ] loadModule dataway admin workAt /interface-ui/
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[a69978d2fee44561bf00dc20d1669f33] -> bindType ‘class net.hasor.dataway.web.ApiDetailController’ mappingTo: ‘[/interface-ui/api/api-detail]’.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[d4b3c117e66d4ed6b3542ce1e3810077] -> bindType ‘class net.hasor.dataway.web.ApiHistoryListController’ mappingTo: ‘[/interface-ui/api/api-history]’.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[dd5ae9b660064af0aaf09b4af7a190f6] -> bindType ‘class net.hasor.dataway.web.ApiInfoController’ mappingTo: ‘[/interface-ui/api/api-info]’.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[4ba46cc9f4fa47a4871496094119b5d2] -> bindType ‘class net.hasor.dataway.web.ApiListController’ mappingTo: ‘[/interface-ui/api/api-list]’.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[249e175b3bc5444d8738fccb3de89d8d] -> bindType ‘class net.hasor.dataway.web.ApiHistoryGetController’ mappingTo: ‘[/interface-ui/api/get-history]’.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[32ef2766c55246d5ad4053ef33ef3da1] -> bindType ‘class net.hasor.dataway.web.DisableController’ mappingTo: ‘[/interface-ui/api/disable]’.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[0a449caf64614b09b9012c3947f18dec] -> bindType ‘class net.hasor.dataway.web.SmokeController’ mappingTo: ‘[/interface-ui/api/smoke]’.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[a79987163904409ca1e227aa686794fe] -> bindType ‘class net.hasor.dataway.web.SaveApiController’ mappingTo: ‘[/interface-ui/api/save-api]’.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[8f77734fff7e43089b9d55587341c0ec] -> bindType ‘class net.hasor.dataway.web.PublishController’ mappingTo: ‘[/interface-ui/api/publish]’.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[e70595839d5a4d728e17725f3bf49360] -> bindType ‘class net.hasor.dataway.web.PerformController’ mappingTo: ‘[/interface-ui/api/perform]’.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[155fb91bf0e042ea8fc027e21971dd5e] -> bindType ‘class net.hasor.dataway.web.DeleteController’ mappingTo: ‘[/interface-ui/api/delete]’.
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.web.render.RenderWebPlugin
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.startup.StartupModule
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.aop.AopModule
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataql.fx.FxModule
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class com.dataway.cn.config.ExampleModule
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.binder.AbstractBinder:70 ] installModule installModule ->net.hasor.db.JdbcModule@624d778e
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.spring.boot.BasicHasorConfiguration$$Lambda$584/0x0000000100593440
+2020-08-12 20:42:54 [ INFO ] [main] [ com.alibaba.druid.pool.DruidDataSource:1010 ] init {dataSource-1} inited
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:136 ] onStart dataway dbMapping MySQL to default
+2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.render.RenderWebPlugin:73 ] onStart RenderPlugin init -> useLayout=false, layoutPath=/layout, templatePath=/templates, placeholder=content_placeholder, defaultLayout=default.html
+2020-08-12 20:42:55 [ INFO ] [Hasor-EventPool-1] [ net.hasor.core.context.TemplateAppContext:440 ] lambda$start$13 Hasor StartCompleted!
+2020-08-12 20:42:55 [ INFO ] [main] [ net.hasor.spring.boot.WebHasorConfiguration:77 ] setImportMetadata @EnableHasorWeb -> filterPath='/*', filterOrder='0', filterWorkAt='Filter'
+2020-08-12 20:42:56 [ INFO ] [main] [ org.springframework.boot.web.servlet.DynamicRegistrationBean:110 ] register Servlet statViewServlet was not registered (possibly already registered?)
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.startup.RuntimeListener:140 ] contextInitialized ServletContext Attribut is net.hasor.core.AppContext
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‘class net.hasor.dataway.web.ApiDetailController’ mappingTo: ‘/interface-ui/api/api-detail’.
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‘class net.hasor.dataway.web.ApiHistoryListController’ mappingTo: ‘/interface-ui/api/api-history’.
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‘class net.hasor.dataway.web.ApiInfoController’ mappingTo: ‘/interface-ui/api/api-info’.
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‘class net.hasor.dataway.web.ApiListController’ mappingTo: ‘/interface-ui/api/api-list’.
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‘class net.hasor.dataway.web.ApiHistoryGetController’ mappingTo: ‘/interface-ui/api/get-history’.
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‘class net.hasor.dataway.web.DisableController’ mappingTo: ‘/interface-ui/api/disable’.
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‘class net.hasor.dataway.web.SmokeController’ mappingTo: ‘/interface-ui/api/smoke’.
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‘class net.hasor.dataway.web.SaveApiController’ mappingTo: ‘/interface-ui/api/save-api’.
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‘class net.hasor.dataway.web.PublishController’ mappingTo: ‘/interface-ui/api/publish’.
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‘class net.hasor.dataway.web.PerformController’ mappingTo: ‘/interface-ui/api/perform’.
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‘class net.hasor.dataway.web.DeleteController’ mappingTo: ‘/interface-ui/api/delete’.
+2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.startup.RuntimeFilter:83 ] init RuntimeFilter started, at Apache Tomcat/9.0.35

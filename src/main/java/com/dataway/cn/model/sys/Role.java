@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
-import lombok.*;
+import lombok.Data;
 
 import java.io.Serializable;
 
@@ -13,12 +13,7 @@ import java.io.Serializable;
  * @author phil
  * @date 2020/06/06 16:36
  */
-@Builder
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@ToString
+@Data
 @TableName("tb_role")
 public class Role extends Model<Role> {
 

@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.dataway.cn.model.sys.Menu;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -16,6 +17,7 @@ import java.util.List;
  * @author liugh123
  * @since 2018-05-03
  */
+@Repository
 public interface MenuMapper extends BaseMapper<Menu> {
 
     /**

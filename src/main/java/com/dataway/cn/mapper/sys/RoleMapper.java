@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.dataway.cn.model.sys.Role;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 /**
  * <p>
@@ -14,6 +15,7 @@ import org.apache.ibatis.annotations.Param;
  * @author liugh123
  * @since 2018-05-03
  */
+@Repository
 public interface RoleMapper extends BaseMapper<Role> {
 
     /**

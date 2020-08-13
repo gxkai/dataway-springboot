@@ -27,10 +27,13 @@ import java.util.Map;
  */
 @Api(value = "登录Controller",tags = {"登录接口"})
 @RestController
-@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class LoginController {
 
     private final IUserService userService;
+
+    public LoginController(IUserService userService) {
+        this.userService = userService;
+    }
 
     /**
      * 登录接口

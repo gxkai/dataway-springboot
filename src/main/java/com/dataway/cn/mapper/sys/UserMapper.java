@@ -3,12 +3,14 @@ package com.dataway.cn.mapper.sys;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.dataway.cn.model.sys.User;
+import org.springframework.stereotype.Repository;
 
 /**
  * UserMapper
  * @author phil
  * @date 2020/05/28 11:06
  */
+@Repository
 public interface UserMapper extends BaseMapper<User> {
 
     /**

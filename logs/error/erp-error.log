@@ -1,0 +1,14 @@
+2020-08-13 06:53:23 [ ERROR ] [main] [ org.springframework.boot.SpringApplication:837 ] reportFailure Application run failed
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at com.dataway.cn.component.WebServer.run(WebServer.java:31) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:786) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at com.dataway.cn.DatawayApplication.main(DatawayApplication.java:23) [classes/:?]
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	... 7 more

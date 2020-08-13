@@ -1,17 +1,17 @@
-2020-08-12 20:42:45 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:55 ] logStarting Starting DatawayApplication on DESKTOP-5Q6QS10 with PID 7884 (Y:\work_space\idea_work_space\dataway\target\classes started by Gavin in Y:\work_space\idea_work_space\dataway)
-2020-08-12 20:42:45 [ INFO ] [main] [ org.springframework.boot.SpringApplication:655 ] logStartupProfileInfo The following profiles are active: custom
-2020-08-12 20:42:50 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'shiroConfig' of type [com.dataway.cn.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$7ffe2263] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-08-12 20:42:50 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-08-12 20:42:50 [ INFO ] [main] [ org.reflections.Reflections:239 ] scan Reflections took 281 ms to scan 1 urls, producing 60 keys and 114 values 
-2020-08-12 20:42:51 [ INFO ] [main] [ com.dataway.cn.config.shiro.ShiroConfig:192 ] getUrlAndMethodSet @Pass:["/api/v1/login"]
-2020-08-12 20:42:51 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-08-12 20:42:52 [ INFO ] [main] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108 ] initialize Tomcat initialized with port(s): 8888 (http)
-2020-08-12 20:42:52 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing ProtocolHandler ["http-nio-8888"]
-2020-08-12 20:42:52 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting service [Tomcat]
-2020-08-12 20:42:52 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-08-12 20:42:52 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing Spring embedded WebApplicationContext
-2020-08-12 20:42:52 [ INFO ] [main] [ org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284 ] prepareWebApplicationContext Root WebApplicationContext: initialization completed in 7328 ms
-2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.spring.boot.BasicHasorConfiguration:140 ] setImportMetadata 
+2020-08-13 06:53:06 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:55 ] logStarting Starting DatawayApplication on DESKTOP-5Q6QS10 with PID 16996 (Y:\work_space\idea_work_space\dataway\target\classes started by Gavin in Y:\work_space\idea_work_space\dataway)
+2020-08-13 06:53:06 [ INFO ] [main] [ org.springframework.boot.SpringApplication:655 ] logStartupProfileInfo The following profiles are active: custom
+2020-08-13 06:53:11 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'shiroConfig' of type [com.dataway.cn.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$a3d785e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 06:53:11 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 06:53:11 [ INFO ] [main] [ org.reflections.Reflections:239 ] scan Reflections took 131 ms to scan 1 urls, producing 60 keys and 114 values 
+2020-08-13 06:53:11 [ INFO ] [main] [ com.dataway.cn.config.shiro.ShiroConfig:192 ] getUrlAndMethodSet @Pass:["/api/v1/login"]
+2020-08-13 06:53:11 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 06:53:12 [ INFO ] [main] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108 ] initialize Tomcat initialized with port(s): 8888 (http)
+2020-08-13 06:53:12 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-13 06:53:12 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting service [Tomcat]
+2020-08-13 06:53:12 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-13 06:53:12 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing Spring embedded WebApplicationContext
+2020-08-13 06:53:12 [ INFO ] [main] [ org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284 ] prepareWebApplicationContext Root WebApplicationContext: initialization completed in 5954 ms
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.spring.boot.BasicHasorConfiguration:140 ] setImportMetadata 
  _    _                        ____              _
 | |  | |                      |  _ \            | |
 | |__| | __ _ ___  ___  _ __  | |_) | ___   ___ | |_
@@ -19,53 +19,577 @@
 | |  | | (_| \__ \ (_) | |    | |_) | (_) | (_) | |_
 |_|  |_|\__,_|___/\___/|_|    |____/ \___/ \___/ \__|
 
-2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.Hasor:224 ] build runMode at Full ,runPath at Y:\work_space\idea_work_space\dataway
-2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/core-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-core/4.1.4/hasor-core-4.1.4.jar!/META-INF/hasor.schemas'
-2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataway-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataway/4.1.4/hasor-dataway-4.1.4.jar!/META-INF/hasor.schemas'
-2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/web-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-web/4.1.4/hasor-web-4.1.4.jar!/META-INF/hasor.schemas'
-2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/db-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-db/4.1.4/hasor-db-4.1.4.jar!/META-INF/hasor.schemas'
-2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql/4.1.4/hasor-dataql-4.1.4.jar!/META-INF/hasor.schemas'
-2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-fx-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql-fx/4.1.4/hasor-dataql-fx-4.1.4.jar!/META-INF/hasor.schemas'
-2020-08-12 20:42:53 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:240 ] initEnvironment loadPackages = com.*, net.*, net.hasor.*, net.hasor.dataql.*, net.hasor.dataql.fx.*, net.hasor.dataway.*, net.hasor.db.*, net.hasor.web.*, org.*
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataway.config.DatawayModule
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:63 ] loadModule dataway api workAt /api/
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:164 ] addVariable var -> HASOR_DATAQL_DATAWAY_API_URL = /api/.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:72 ] loadModule dataway self isolation ->net.hasor.dataway.config.DatawayModule
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:91 ] loadModule dataway admin workAt /interface-ui/
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[a69978d2fee44561bf00dc20d1669f33] -> bindType ‚Äòclass net.hasor.dataway.web.ApiDetailController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-detail]‚Äô.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[d4b3c117e66d4ed6b3542ce1e3810077] -> bindType ‚Äòclass net.hasor.dataway.web.ApiHistoryListController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-history]‚Äô.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[dd5ae9b660064af0aaf09b4af7a190f6] -> bindType ‚Äòclass net.hasor.dataway.web.ApiInfoController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-info]‚Äô.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[4ba46cc9f4fa47a4871496094119b5d2] -> bindType ‚Äòclass net.hasor.dataway.web.ApiListController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-list]‚Äô.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[249e175b3bc5444d8738fccb3de89d8d] -> bindType ‚Äòclass net.hasor.dataway.web.ApiHistoryGetController‚Äô mappingTo: ‚Äò[/interface-ui/api/get-history]‚Äô.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[32ef2766c55246d5ad4053ef33ef3da1] -> bindType ‚Äòclass net.hasor.dataway.web.DisableController‚Äô mappingTo: ‚Äò[/interface-ui/api/disable]‚Äô.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[0a449caf64614b09b9012c3947f18dec] -> bindType ‚Äòclass net.hasor.dataway.web.SmokeController‚Äô mappingTo: ‚Äò[/interface-ui/api/smoke]‚Äô.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[a79987163904409ca1e227aa686794fe] -> bindType ‚Äòclass net.hasor.dataway.web.SaveApiController‚Äô mappingTo: ‚Äò[/interface-ui/api/save-api]‚Äô.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[8f77734fff7e43089b9d55587341c0ec] -> bindType ‚Äòclass net.hasor.dataway.web.PublishController‚Äô mappingTo: ‚Äò[/interface-ui/api/publish]‚Äô.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[e70595839d5a4d728e17725f3bf49360] -> bindType ‚Äòclass net.hasor.dataway.web.PerformController‚Äô mappingTo: ‚Äò[/interface-ui/api/perform]‚Äô.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[155fb91bf0e042ea8fc027e21971dd5e] -> bindType ‚Äòclass net.hasor.dataway.web.DeleteController‚Äô mappingTo: ‚Äò[/interface-ui/api/delete]‚Äô.
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.web.render.RenderWebPlugin
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.startup.StartupModule
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.aop.AopModule
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataql.fx.FxModule
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class com.dataway.cn.config.ExampleModule
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.binder.AbstractBinder:70 ] installModule installModule ->net.hasor.db.JdbcModule@624d778e
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.spring.boot.BasicHasorConfiguration$$Lambda$584/0x0000000100593440
-2020-08-12 20:42:54 [ INFO ] [main] [ com.alibaba.druid.pool.DruidDataSource:1010 ] init {dataSource-1} inited
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:136 ] onStart dataway dbMapping MySQL to default
-2020-08-12 20:42:54 [ INFO ] [main] [ net.hasor.web.render.RenderWebPlugin:73 ] onStart RenderPlugin init -> useLayout=false, layoutPath=/layout, templatePath=/templates, placeholder=content_placeholder, defaultLayout=default.html
-2020-08-12 20:42:55 [ INFO ] [Hasor-EventPool-1] [ net.hasor.core.context.TemplateAppContext:440 ] lambda$start$13 Hasor StartCompleted!
-2020-08-12 20:42:55 [ INFO ] [main] [ net.hasor.spring.boot.WebHasorConfiguration:77 ] setImportMetadata @EnableHasorWeb -> filterPath='/*', filterOrder='0', filterWorkAt='Filter'
-2020-08-12 20:42:56 [ INFO ] [main] [ org.springframework.boot.web.servlet.DynamicRegistrationBean:110 ] register Servlet statViewServlet was not registered (possibly already registered?)
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.startup.RuntimeListener:140 ] contextInitialized ServletContext Attribut is net.hasor.core.AppContext
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiDetailController‚Äô mappingTo: ‚Äò/interface-ui/api/api-detail‚Äô.
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiHistoryListController‚Äô mappingTo: ‚Äò/interface-ui/api/api-history‚Äô.
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiInfoController‚Äô mappingTo: ‚Äò/interface-ui/api/api-info‚Äô.
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiListController‚Äô mappingTo: ‚Äò/interface-ui/api/api-list‚Äô.
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiHistoryGetController‚Äô mappingTo: ‚Äò/interface-ui/api/get-history‚Äô.
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.DisableController‚Äô mappingTo: ‚Äò/interface-ui/api/disable‚Äô.
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.SmokeController‚Äô mappingTo: ‚Äò/interface-ui/api/smoke‚Äô.
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.SaveApiController‚Äô mappingTo: ‚Äò/interface-ui/api/save-api‚Äô.
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.PublishController‚Äô mappingTo: ‚Äò/interface-ui/api/publish‚Äô.
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.PerformController‚Äô mappingTo: ‚Äò/interface-ui/api/perform‚Äô.
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.DeleteController‚Äô mappingTo: ‚Äò/interface-ui/api/delete‚Äô.
-2020-08-12 20:42:56 [ INFO ] [main] [ net.hasor.web.startup.RuntimeFilter:83 ] init RuntimeFilter started, at Apache Tomcat/9.0.35
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.Hasor:224 ] build runMode at Full ,runPath at Y:\work_space\idea_work_space\dataway
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/core-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-core/4.1.4/hasor-core-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataway-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataway/4.1.4/hasor-dataway-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/web-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-web/4.1.4/hasor-web-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/db-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-db/4.1.4/hasor-db-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql/4.1.4/hasor-dataql-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-fx-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql-fx/4.1.4/hasor-dataql-fx-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:240 ] initEnvironment loadPackages = com.*, net.*, net.hasor.*, net.hasor.dataql.*, net.hasor.dataql.fx.*, net.hasor.dataway.*, net.hasor.db.*, net.hasor.web.*, org.*
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataway.config.DatawayModule
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:63 ] loadModule dataway api workAt /api/
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:164 ] addVariable var -> HASOR_DATAQL_DATAWAY_API_URL = /api/.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:72 ] loadModule dataway self isolation ->net.hasor.dataway.config.DatawayModule
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:91 ] loadModule dataway admin workAt /interface-ui/
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[1dd072f9bec440a6ae139aa5cc7b8ae1] -> bindType ‚Äòclass net.hasor.dataway.web.ApiDetailController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-detail]‚Äô.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[659d29f69ed74b18b369b7af97bbb80f] -> bindType ‚Äòclass net.hasor.dataway.web.ApiHistoryListController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-history]‚Äô.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[e06a0d7591684c51b791076893f7be6a] -> bindType ‚Äòclass net.hasor.dataway.web.ApiInfoController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-info]‚Äô.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[663cb8573500414da9327812b9b8ef79] -> bindType ‚Äòclass net.hasor.dataway.web.ApiListController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-list]‚Äô.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[f19b971a042b4711a2c2b7a41fa10dfc] -> bindType ‚Äòclass net.hasor.dataway.web.ApiHistoryGetController‚Äô mappingTo: ‚Äò[/interface-ui/api/get-history]‚Äô.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[5a188bd063e4421d8cde1037ffe078c9] -> bindType ‚Äòclass net.hasor.dataway.web.DisableController‚Äô mappingTo: ‚Äò[/interface-ui/api/disable]‚Äô.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[8405072ac76f431db2dec5b6a4b43a7f] -> bindType ‚Äòclass net.hasor.dataway.web.SmokeController‚Äô mappingTo: ‚Äò[/interface-ui/api/smoke]‚Äô.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[7262a20a9d8447d1b4bd936364c23d42] -> bindType ‚Äòclass net.hasor.dataway.web.SaveApiController‚Äô mappingTo: ‚Äò[/interface-ui/api/save-api]‚Äô.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[7cf0b9e30efa4da681c14fde617c46b8] -> bindType ‚Äòclass net.hasor.dataway.web.PublishController‚Äô mappingTo: ‚Äò[/interface-ui/api/publish]‚Äô.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[3e7693fc0820452da8570ed4d57cd41a] -> bindType ‚Äòclass net.hasor.dataway.web.PerformController‚Äô mappingTo: ‚Äò[/interface-ui/api/perform]‚Äô.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[b2a157c09eca49e6b5e5b16bedcb9a6a] -> bindType ‚Äòclass net.hasor.dataway.web.DeleteController‚Äô mappingTo: ‚Äò[/interface-ui/api/delete]‚Äô.
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.web.render.RenderWebPlugin
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.startup.StartupModule
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.aop.AopModule
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataql.fx.FxModule
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class com.dataway.cn.config.ExampleModule
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.binder.AbstractBinder:70 ] installModule installModule ->net.hasor.db.JdbcModule@1f6c4ae
+2020-08-13 06:53:13 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.spring.boot.BasicHasorConfiguration$$Lambda$605/0x0000000801006840
+2020-08-13 06:53:14 [ INFO ] [main] [ com.alibaba.druid.pool.DruidDataSource:1010 ] init {dataSource-1} inited
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:136 ] onStart dataway dbMapping MySQL to default
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.render.RenderWebPlugin:73 ] onStart RenderPlugin init -> useLayout=false, layoutPath=/layout, templatePath=/templates, placeholder=content_placeholder, defaultLayout=default.html
+2020-08-13 06:53:14 [ INFO ] [Hasor-EventPool-1] [ net.hasor.core.context.TemplateAppContext:440 ] lambda$start$13 Hasor StartCompleted!
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.spring.boot.WebHasorConfiguration:77 ] setImportMetadata @EnableHasorWeb -> filterPath='/*', filterOrder='0', filterWorkAt='Filter'
+2020-08-13 06:53:14 [ INFO ] [main] [ org.springframework.boot.web.servlet.DynamicRegistrationBean:110 ] register Servlet statViewServlet was not registered (possibly already registered?)
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.startup.RuntimeListener:140 ] contextInitialized ServletContext Attribut is net.hasor.core.AppContext
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiDetailController‚Äô mappingTo: ‚Äò/interface-ui/api/api-detail‚Äô.
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiHistoryListController‚Äô mappingTo: ‚Äò/interface-ui/api/api-history‚Äô.
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiInfoController‚Äô mappingTo: ‚Äò/interface-ui/api/api-info‚Äô.
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiListController‚Äô mappingTo: ‚Äò/interface-ui/api/api-list‚Äô.
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiHistoryGetController‚Äô mappingTo: ‚Äò/interface-ui/api/get-history‚Äô.
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.DisableController‚Äô mappingTo: ‚Äò/interface-ui/api/disable‚Äô.
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.SmokeController‚Äô mappingTo: ‚Äò/interface-ui/api/smoke‚Äô.
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.SaveApiController‚Äô mappingTo: ‚Äò/interface-ui/api/save-api‚Äô.
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.PublishController‚Äô mappingTo: ‚Äò/interface-ui/api/publish‚Äô.
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.PerformController‚Äô mappingTo: ‚Äò/interface-ui/api/perform‚Äô.
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.DeleteController‚Äô mappingTo: ‚Äò/interface-ui/api/delete‚Äô.
+2020-08-13 06:53:14 [ INFO ] [main] [ net.hasor.web.startup.RuntimeFilter:83 ] init RuntimeFilter started, at Apache Tomcat/9.0.35
+2020-08-13 06:53:16 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1036 ] instantiate Using ConnectionProvider class 'org.quartz.utils.C3p0PoolingConnectionProvider' for data source 'myDS'
+2020-08-13 06:53:16 [ INFO ] [MLog-Init-Reporter] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log MLog clients using slf4j logging.
+2020-08-13 06:53:16 [ INFO ] [main] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2020-08-13 06:53:16 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1220 ] instantiate Using default implementation for ThreadExecutor
+2020-08-13 06:53:16 [ INFO ] [main] [ org.quartz.simpl.SimpleThreadPool:268 ] initialize Job execution threads will use class loader of thread: main
+2020-08-13 06:53:16 [ INFO ] [main] [ org.quartz.core.SchedulerSignalerImpl:61 ] <init> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-08-13 06:53:16 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:229 ] <init> Quartz Scheduler v.2.3.2 created.
+2020-08-13 06:53:16 [ INFO ] [main] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:675 ] initialize Using thread monitor-based data access locking (synchronization).
+2020-08-13 06:53:16 [ INFO ] [main] [ org.quartz.impl.jdbcjobstore.JobStoreTX:59 ] initialize JobStoreTX initialized.
+2020-08-13 06:53:16 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:294 ] initialize Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+2020-08-13 06:53:16 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1374 ] instantiate Quartz scheduler 'DefaultQuartzScheduler' initialized from an externally provided properties instance.
+2020-08-13 06:53:16 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1378 ] instantiate Quartz scheduler version: 2.3.2
+2020-08-13 06:53:16 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:2293 ] setJobFactory JobFactory set to: com.dataway.cn.component.JobFactory@5c0272e0
+2020-08-13 06:53:18 [ INFO ] [main] [ org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58 ] <init> Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-08-13 06:53:18 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService
+2020-08-13 06:53:18 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService 'asyncThreadPool'
+2020-08-13 06:53:18 [ INFO ] [main] [ springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69 ] initHandlerMethods Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-13 06:53:20 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService 'taskScheduler'
+2020-08-13 06:53:21 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting ProtocolHandler ["http-nio-8888"]
+2020-08-13 06:53:21 [ INFO ] [main] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220 ] start Tomcat started on port(s): 8888 (http) with context path '/api/v1'
+2020-08-13 06:53:21 [ INFO ] [main] [ springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160 ] start Context refreshed
+2020-08-13 06:53:21 [ INFO ] [main] [ springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163 ] start Found 1 custom documentation plugin(s)
+2020-08-13 06:53:21 [ INFO ] [main] [ springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41 ] scan Scanning for api listing references
+2020-08-13 06:53:22 [ INFO ] [main] [ springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40 ] startingWith Generating unique operation named: getByIdUsingGET_1
+2020-08-13 06:53:22 [ INFO ] [main] [ springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40 ] startingWith Generating unique operation named: getPageListUsingGET_1
+2020-08-13 06:53:22 [ INFO ] [main] [ org.springframework.scheduling.quartz.SchedulerFactoryBean:732 ] startScheduler Will start Quartz Scheduler [DefaultQuartzScheduler] in 1 seconds
+2020-08-13 06:53:22 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:61 ] logStarted Started DatawayApplication in 17.975 seconds (JVM running for 24.339)
+2020-08-13 06:53:22 [ INFO ] [main] [ com.dataway.cn.component.WebServer:28 ] run ÂºÄÂßãÂèëÂ∏ÉWebServiceÔºÅ
+2020-08-13 06:53:22 [ INFO ] [main] [ com.dataway.cn.component.WebServer:29 ] run ÂèëÂ∏ÉÂú∞ÂùÄ‰∏∫Ôºöhttp://127.0.0.1:9003/color
+2020-08-13 06:53:22 [ INFO ] [main] [ org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136 ] logMessage 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-13 06:53:23 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218 ] shutdown Shutting down ExecutorService 'taskScheduler'
+2020-08-13 06:53:23 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218 ] shutdown Shutting down ExecutorService 'asyncThreadPool'
+2020-08-13 06:53:23 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:666 ] shutdown Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-08-13 06:53:23 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:585 ] standby Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-08-13 06:53:23 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:740 ] shutdown Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-08-13 06:53:23 [ INFO ] [main] [ org.springframework.scheduling.quartz.SchedulerFactoryBean:845 ] destroy Shutting down Quartz Scheduler
+2020-08-13 06:53:23 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:462 ] shutdown Hasor StartCompleted.
+2020-08-13 06:53:23 [ INFO ] [main] [ com.alibaba.druid.pool.DruidDataSource:2003 ] close {dataSource-1} closing ...
+2020-08-13 06:53:23 [ INFO ] [main] [ com.alibaba.druid.pool.DruidDataSource:2075 ] close {dataSource-1} closed
+2020-08-13 06:57:53 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:55 ] logStarting Starting DatawayApplication on DESKTOP-5Q6QS10 with PID 1752 (Y:\work_space\idea_work_space\dataway\target\classes started by Gavin in Y:\work_space\idea_work_space\dataway)
+2020-08-13 06:57:53 [ INFO ] [main] [ org.springframework.boot.SpringApplication:655 ] logStartupProfileInfo The following profiles are active: custom
+2020-08-13 06:57:58 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'shiroConfig' of type [com.dataway.cn.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$a9a11ab4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 06:57:58 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 06:57:58 [ INFO ] [main] [ org.reflections.Reflections:239 ] scan Reflections took 139 ms to scan 1 urls, producing 60 keys and 114 values 
+2020-08-13 06:57:58 [ INFO ] [main] [ com.dataway.cn.config.shiro.ShiroConfig:192 ] getUrlAndMethodSet @Pass:["/api/v1/login"]
+2020-08-13 06:57:58 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 06:57:59 [ INFO ] [main] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108 ] initialize Tomcat initialized with port(s): 8888 (http)
+2020-08-13 06:57:59 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-13 06:57:59 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting service [Tomcat]
+2020-08-13 06:57:59 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-13 06:57:59 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing Spring embedded WebApplicationContext
+2020-08-13 06:57:59 [ INFO ] [main] [ org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284 ] prepareWebApplicationContext Root WebApplicationContext: initialization completed in 5911 ms
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.spring.boot.BasicHasorConfiguration:140 ] setImportMetadata 
+ _    _                        ____              _
+| |  | |                      |  _ \            | |
+| |__| | __ _ ___  ___  _ __  | |_) | ___   ___ | |_
+|  __  |/ _` / __|/ _ \| '__| |  _ < / _ \ / _ \| __|
+| |  | | (_| \__ \ (_) | |    | |_) | (_) | (_) | |_
+|_|  |_|\__,_|___/\___/|_|    |____/ \___/ \___/ \__|
+
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.Hasor:224 ] build runMode at Full ,runPath at Y:\work_space\idea_work_space\dataway
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/core-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-core/4.1.4/hasor-core-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataway-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataway/4.1.4/hasor-dataway-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/web-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-web/4.1.4/hasor-web-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/db-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-db/4.1.4/hasor-db-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql/4.1.4/hasor-dataql-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-fx-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql-fx/4.1.4/hasor-dataql-fx-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:240 ] initEnvironment loadPackages = com.*, net.*, net.hasor.*, net.hasor.dataql.*, net.hasor.dataql.fx.*, net.hasor.dataway.*, net.hasor.db.*, net.hasor.web.*, org.*
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataway.config.DatawayModule
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:63 ] loadModule dataway api workAt /api/
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:164 ] addVariable var -> HASOR_DATAQL_DATAWAY_API_URL = /api/.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:72 ] loadModule dataway self isolation ->net.hasor.dataway.config.DatawayModule
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:91 ] loadModule dataway admin workAt /interface-ui/
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[8c9950504bb6424b9c959fcdd89d121b] -> bindType ‚Äòclass net.hasor.dataway.web.ApiDetailController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-detail]‚Äô.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[aa121c2408aa44cca1e8dc86766155ca] -> bindType ‚Äòclass net.hasor.dataway.web.ApiHistoryListController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-history]‚Äô.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[d7ec37f88a644220b74b37254cde72cd] -> bindType ‚Äòclass net.hasor.dataway.web.ApiInfoController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-info]‚Äô.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[83f5f67103bc415ea09650e3a28efdf0] -> bindType ‚Äòclass net.hasor.dataway.web.ApiListController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-list]‚Äô.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[3f6622db0bfa439f88374a2913d9aae7] -> bindType ‚Äòclass net.hasor.dataway.web.ApiHistoryGetController‚Äô mappingTo: ‚Äò[/interface-ui/api/get-history]‚Äô.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[a536c27a215149c088ba3e49f45abcd4] -> bindType ‚Äòclass net.hasor.dataway.web.DisableController‚Äô mappingTo: ‚Äò[/interface-ui/api/disable]‚Äô.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[641a3b194244438b87b34fa6c0c824b0] -> bindType ‚Äòclass net.hasor.dataway.web.SmokeController‚Äô mappingTo: ‚Äò[/interface-ui/api/smoke]‚Äô.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[7ed8df0ddbaa4b3a97d00f1cd6238e1d] -> bindType ‚Äòclass net.hasor.dataway.web.SaveApiController‚Äô mappingTo: ‚Äò[/interface-ui/api/save-api]‚Äô.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[d6d3f6aa4d204436b34e8dc128030083] -> bindType ‚Äòclass net.hasor.dataway.web.PublishController‚Äô mappingTo: ‚Äò[/interface-ui/api/publish]‚Äô.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[345adfc81ae24c8dbded8c33c62ef453] -> bindType ‚Äòclass net.hasor.dataway.web.PerformController‚Äô mappingTo: ‚Äò[/interface-ui/api/perform]‚Äô.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[4a91946d956e45adae47d6f051694c2a] -> bindType ‚Äòclass net.hasor.dataway.web.DeleteController‚Äô mappingTo: ‚Äò[/interface-ui/api/delete]‚Äô.
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.web.render.RenderWebPlugin
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.startup.StartupModule
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.aop.AopModule
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataql.fx.FxModule
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class com.dataway.cn.config.ExampleModule
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.binder.AbstractBinder:70 ] installModule installModule ->net.hasor.db.JdbcModule@53eba4b8
+2020-08-13 06:58:00 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.spring.boot.BasicHasorConfiguration$$Lambda$446/527658240
+2020-08-13 06:58:01 [ INFO ] [main] [ com.alibaba.druid.pool.DruidDataSource:1010 ] init {dataSource-1} inited
+2020-08-13 06:58:01 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:136 ] onStart dataway dbMapping MySQL to default
+2020-08-13 06:58:01 [ INFO ] [main] [ net.hasor.web.render.RenderWebPlugin:73 ] onStart RenderPlugin init -> useLayout=false, layoutPath=/layout, templatePath=/templates, placeholder=content_placeholder, defaultLayout=default.html
+2020-08-13 06:58:01 [ INFO ] [Hasor-EventPool-1] [ net.hasor.core.context.TemplateAppContext:440 ] lambda$start$13 Hasor StartCompleted!
+2020-08-13 06:58:01 [ INFO ] [main] [ net.hasor.spring.boot.WebHasorConfiguration:77 ] setImportMetadata @EnableHasorWeb -> filterPath='/*', filterOrder='0', filterWorkAt='Filter'
+2020-08-13 06:58:01 [ INFO ] [main] [ org.springframework.boot.web.servlet.DynamicRegistrationBean:110 ] register Servlet statViewServlet was not registered (possibly already registered?)
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.startup.RuntimeListener:140 ] contextInitialized ServletContext Attribut is net.hasor.core.AppContext
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiDetailController‚Äô mappingTo: ‚Äò/interface-ui/api/api-detail‚Äô.
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiHistoryListController‚Äô mappingTo: ‚Äò/interface-ui/api/api-history‚Äô.
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiInfoController‚Äô mappingTo: ‚Äò/interface-ui/api/api-info‚Äô.
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiListController‚Äô mappingTo: ‚Äò/interface-ui/api/api-list‚Äô.
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiHistoryGetController‚Äô mappingTo: ‚Äò/interface-ui/api/get-history‚Äô.
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.DisableController‚Äô mappingTo: ‚Äò/interface-ui/api/disable‚Äô.
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.SmokeController‚Äô mappingTo: ‚Äò/interface-ui/api/smoke‚Äô.
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.SaveApiController‚Äô mappingTo: ‚Äò/interface-ui/api/save-api‚Äô.
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.PublishController‚Äô mappingTo: ‚Äò/interface-ui/api/publish‚Äô.
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.PerformController‚Äô mappingTo: ‚Äò/interface-ui/api/perform‚Äô.
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.DeleteController‚Äô mappingTo: ‚Äò/interface-ui/api/delete‚Äô.
+2020-08-13 06:58:02 [ INFO ] [main] [ net.hasor.web.startup.RuntimeFilter:83 ] init RuntimeFilter started, at Apache Tomcat/9.0.35
+2020-08-13 06:58:04 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1036 ] instantiate Using ConnectionProvider class 'org.quartz.utils.C3p0PoolingConnectionProvider' for data source 'myDS'
+2020-08-13 06:58:04 [ INFO ] [MLog-Init-Reporter] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log MLog clients using slf4j logging.
+2020-08-13 06:58:04 [ INFO ] [main] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2020-08-13 06:58:04 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1220 ] instantiate Using default implementation for ThreadExecutor
+2020-08-13 06:58:04 [ INFO ] [main] [ org.quartz.simpl.SimpleThreadPool:268 ] initialize Job execution threads will use class loader of thread: main
+2020-08-13 06:58:04 [ INFO ] [main] [ org.quartz.core.SchedulerSignalerImpl:61 ] <init> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-08-13 06:58:04 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:229 ] <init> Quartz Scheduler v.2.3.2 created.
+2020-08-13 06:58:04 [ INFO ] [main] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:675 ] initialize Using thread monitor-based data access locking (synchronization).
+2020-08-13 06:58:04 [ INFO ] [main] [ org.quartz.impl.jdbcjobstore.JobStoreTX:59 ] initialize JobStoreTX initialized.
+2020-08-13 06:58:04 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:294 ] initialize Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+2020-08-13 06:58:04 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1374 ] instantiate Quartz scheduler 'DefaultQuartzScheduler' initialized from an externally provided properties instance.
+2020-08-13 06:58:04 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1378 ] instantiate Quartz scheduler version: 2.3.2
+2020-08-13 06:58:04 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:2293 ] setJobFactory JobFactory set to: com.dataway.cn.component.JobFactory@230232b0
+2020-08-13 06:58:06 [ INFO ] [main] [ org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58 ] <init> Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-08-13 06:58:06 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService
+2020-08-13 06:58:06 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService 'asyncThreadPool'
+2020-08-13 06:58:06 [ INFO ] [main] [ springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69 ] initHandlerMethods Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-13 06:58:08 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService 'taskScheduler'
+2020-08-13 06:58:08 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting ProtocolHandler ["http-nio-8888"]
+2020-08-13 06:58:08 [ INFO ] [main] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220 ] start Tomcat started on port(s): 8888 (http) with context path '/api/v1'
+2020-08-13 06:58:08 [ INFO ] [main] [ springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160 ] start Context refreshed
+2020-08-13 06:58:08 [ INFO ] [main] [ springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163 ] start Found 1 custom documentation plugin(s)
+2020-08-13 06:58:08 [ INFO ] [main] [ springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41 ] scan Scanning for api listing references
+2020-08-13 06:58:09 [ INFO ] [main] [ springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40 ] startingWith Generating unique operation named: getByIdUsingGET_1
+2020-08-13 06:58:09 [ INFO ] [main] [ springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40 ] startingWith Generating unique operation named: getPageListUsingGET_1
+2020-08-13 06:58:09 [ INFO ] [main] [ org.springframework.scheduling.quartz.SchedulerFactoryBean:732 ] startScheduler Will start Quartz Scheduler [DefaultQuartzScheduler] in 1 seconds
+2020-08-13 06:58:09 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:61 ] logStarted Started DatawayApplication in 17.243 seconds (JVM running for 21.058)
+2020-08-13 06:58:09 [ INFO ] [main] [ com.dataway.cn.component.WebServer:28 ] run ÂºÄÂßãÂèëÂ∏ÉWebServiceÔºÅ
+2020-08-13 06:58:09 [ INFO ] [main] [ com.dataway.cn.component.WebServer:29 ] run ÂèëÂ∏ÉÂú∞ÂùÄ‰∏∫Ôºöhttp://127.0.0.1:9003/color
+2020-08-13 06:58:10 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.springframework.scheduling.quartz.SchedulerFactoryBean$1:748 ] run Starting Quartz Scheduler now, after delay of 1 seconds
+2020-08-13 06:58:10 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge135ab1rid6vpwj55cs|fabef2e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge135ab1rid6vpwj55cs|fabef2e, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.1.133:3306/dataway?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 120, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2020-08-13 06:58:10 [ INFO ] [main] [ com.dataway.cn.component.WebServer:33 ] run ÂèëÂ∏ÉÊàêÂäüÔºÅ
+2020-08-13 06:58:10 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:866 ] recoverJobs Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-08-13 06:58:10 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:973 ] recoverMisfiredJobs Handling 1 trigger(s) that missed their scheduled fire-time.
+2020-08-13 06:58:10 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:876 ] recoverJobs Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-08-13 06:58:10 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:889 ] recoverJobs Recovery complete.
+2020-08-13 06:58:10 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:896 ] recoverJobs Removed 0 'complete' triggers.
+2020-08-13 06:58:10 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:901 ] recoverJobs Removed 0 stale fired job entries.
+2020-08-13 06:58:10 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.core.QuartzScheduler:547 ] start Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-08-13 06:58:10 [ INFO ] [DefaultQuartzScheduler_Worker-1] [ com.dataway.cn.scheduling.job.task.TestTask:19 ] execute TestTask JobÊâßË°åÊó∂Èó¥ÔºöThu Aug 13 06:58:10 CST 2020
+2020-08-13 06:58:11 [ INFO ] [RMI TCP Connection(5)-192.168.1.1] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-13 06:58:11 [ INFO ] [RMI TCP Connection(5)-192.168.1.1] [ org.springframework.web.servlet.FrameworkServlet:525 ] initServletBean Initializing Servlet 'dispatcherServlet'
+2020-08-13 06:58:11 [ INFO ] [RMI TCP Connection(5)-192.168.1.1] [ org.springframework.web.servlet.FrameworkServlet:547 ] initServletBean Completed initialization in 37 ms
+2020-08-13 06:58:12 [ INFO ] [RMI TCP Connection(6)-192.168.1.1] [ org.apache.activemq.broker.BrokerService:287 ] <clinit> Loaded the Bouncy Castle security provider at position: 11
+2020-08-13 06:58:12 [ INFO ] [JMX connector] [ org.apache.activemq.broker.jmx.ManagementContext$1:171 ] run JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2020-08-13 06:58:12 [ INFO ] [RMI TCP Connection(6)-192.168.1.1] [ org.apache.activemq.broker.BrokerService:689 ] doStartPersistenceAdapter Using Persistence Adapter: MemoryPersistenceAdapter
+2020-08-13 06:58:12 [ INFO ] [RMI TCP Connection(6)-192.168.1.1] [ org.apache.activemq.broker.BrokerService:752 ] doStartBroker Apache ActiveMQ 5.15.12 (localhost, ID:DESKTOP-5Q6QS10-59101-1597273092805-0:1) is starting
+2020-08-13 06:58:12 [ INFO ] [RMI TCP Connection(6)-192.168.1.1] [ org.apache.activemq.broker.BrokerService:779 ] doStartBroker Apache ActiveMQ 5.15.12 (localhost, ID:DESKTOP-5Q6QS10-59101-1597273092805-0:1) started
+2020-08-13 06:58:12 [ INFO ] [RMI TCP Connection(6)-192.168.1.1] [ org.apache.activemq.broker.BrokerService:780 ] doStartBroker For help or more information please see: http://activemq.apache.org
+2020-08-13 06:58:13 [ INFO ] [RMI TCP Connection(6)-192.168.1.1] [ org.apache.activemq.broker.TransportConnector:265 ] start Connector vm://localhost started
+2020-08-13 07:00:00 [ INFO ] [DefaultQuartzScheduler_Worker-2] [ com.dataway.cn.scheduling.job.task.TestTask:19 ] execute TestTask JobÊâßË°åÊó∂Èó¥ÔºöThu Aug 13 07:00:00 CST 2020
+2020-08-13 07:00:00 [ INFO ] [asyncPool-1] [ com.dataway.cn.scheduling.ScheduleTask:26 ] execute ==========================asyncPool-1 start==============================
+2020-08-13 07:00:00 [ INFO ] [asyncPool-2] [ com.dataway.cn.scheduling.ScheduleTask:35 ] execute2 ==========================asyncPool-2 start==============================
+2020-08-13 07:00:00 [ INFO ] [asyncPool-1] [ com.dataway.cn.scheduling.ScheduleTask:27 ] execute This is schedule1111 test.
+2020-08-13 07:00:00 [ INFO ] [asyncPool-2] [ com.dataway.cn.scheduling.ScheduleTask:36 ] execute2 This is schedule222 test.
+2020-08-13 07:00:00 [ INFO ] [asyncPool-1] [ com.dataway.cn.scheduling.ScheduleTask:28 ] execute 2020-08-13 07:00:00
+2020-08-13 07:00:00 [ INFO ] [asyncPool-2] [ com.dataway.cn.scheduling.ScheduleTask:37 ] execute2 2020-08-13 07:00:00
+2020-08-13 07:00:00 [ INFO ] [asyncPool-2] [ com.dataway.cn.scheduling.ScheduleTask:38 ] execute2 ==========================asyncPool-2 end==============================
+2020-08-13 07:00:00 [ INFO ] [asyncPool-1] [ com.dataway.cn.scheduling.ScheduleTask:29 ] execute ==========================asyncPool-1 end==============================
+2020-08-13 07:03:40 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:55 ] logStarting Starting DatawayApplicationTests on DESKTOP-5Q6QS10 with PID 12548 (started by Gavin in Y:\work_space\idea_work_space\dataway)
+2020-08-13 07:03:40 [ INFO ] [main] [ org.springframework.boot.SpringApplication:655 ] logStartupProfileInfo The following profiles are active: custom
+2020-08-13 07:03:49 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'shiroConfig' of type [com.dataway.cn.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$acd0e13c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 07:03:50 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 07:03:51 [ INFO ] [main] [ org.reflections.Reflections:239 ] scan Reflections took 461 ms to scan 2 urls, producing 61 keys and 115 values 
+2020-08-13 07:03:52 [ INFO ] [main] [ com.dataway.cn.config.shiro.ShiroConfig:192 ] getUrlAndMethodSet @Pass:["/api/v1/login"]
+2020-08-13 07:03:52 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 07:03:59 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1036 ] instantiate Using ConnectionProvider class 'org.quartz.utils.C3p0PoolingConnectionProvider' for data source 'myDS'
+2020-08-13 07:04:00 [ INFO ] [MLog-Init-Reporter] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log MLog clients using slf4j logging.
+2020-08-13 07:04:00 [ INFO ] [main] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2020-08-13 07:04:00 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1220 ] instantiate Using default implementation for ThreadExecutor
+2020-08-13 07:04:00 [ INFO ] [main] [ org.quartz.simpl.SimpleThreadPool:268 ] initialize Job execution threads will use class loader of thread: main
+2020-08-13 07:04:00 [ INFO ] [main] [ org.quartz.core.SchedulerSignalerImpl:61 ] <init> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-08-13 07:04:00 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:229 ] <init> Quartz Scheduler v.2.3.2 created.
+2020-08-13 07:04:00 [ INFO ] [main] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:675 ] initialize Using thread monitor-based data access locking (synchronization).
+2020-08-13 07:04:00 [ INFO ] [main] [ org.quartz.impl.jdbcjobstore.JobStoreTX:59 ] initialize JobStoreTX initialized.
+2020-08-13 07:04:00 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:294 ] initialize Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+2020-08-13 07:04:00 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1374 ] instantiate Quartz scheduler 'DefaultQuartzScheduler' initialized from an externally provided properties instance.
+2020-08-13 07:04:00 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1378 ] instantiate Quartz scheduler version: 2.3.2
+2020-08-13 07:04:00 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:2293 ] setJobFactory JobFactory set to: com.dataway.cn.component.JobFactory@601d6622
+2020-08-13 07:04:05 [ INFO ] [main] [ net.hasor.spring.boot.BasicHasorConfiguration:140 ] setImportMetadata 
+ _    _                        ____              _
+| |  | |                      |  _ \            | |
+| |__| | __ _ ___  ___  _ __  | |_) | ___   ___ | |_
+|  __  |/ _` / __|/ _ \| '__| |  _ < / _ \ / _ \| __|
+| |  | | (_| \__ \ (_) | |    | |_) | (_) | (_) | |_
+|_|  |_|\__,_|___/\___/|_|    |____/ \___/ \___/ \__|
+
+2020-08-13 07:04:05 [ INFO ] [main] [ net.hasor.core.Hasor:224 ] build runMode at Full ,runPath at Y:\work_space\idea_work_space\dataway
+2020-08-13 07:04:05 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/core-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-core/4.1.4/hasor-core-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 07:04:05 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataway-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataway/4.1.4/hasor-dataway-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 07:04:05 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/web-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-web/4.1.4/hasor-web-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 07:04:05 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/db-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-db/4.1.4/hasor-db-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 07:04:05 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql/4.1.4/hasor-dataql-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 07:04:05 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-fx-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql-fx/4.1.4/hasor-dataql-fx-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:240 ] initEnvironment loadPackages = com.*, net.*, net.hasor.*, net.hasor.dataql.*, net.hasor.dataql.fx.*, net.hasor.dataway.*, net.hasor.db.*, net.hasor.web.*, org.*
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataway.config.DatawayModule
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:63 ] loadModule dataway api workAt /api/
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:164 ] addVariable var -> HASOR_DATAQL_DATAWAY_API_URL = /api/.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:72 ] loadModule dataway self isolation ->net.hasor.dataway.config.DatawayModule
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:91 ] loadModule dataway admin workAt /interface-ui/
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[337e7e1a068c48f290a69b29fcce8c19] -> bindType °Æclass net.hasor.dataway.web.ApiDetailController°Ø mappingTo: °Æ[/interface-ui/api/api-detail]°Ø.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[9eef09a122d34eb98d9903d9d1e698bc] -> bindType °Æclass net.hasor.dataway.web.ApiHistoryListController°Ø mappingTo: °Æ[/interface-ui/api/api-history]°Ø.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[f56a9e2996bd4dc8a2f12ff0442d6379] -> bindType °Æclass net.hasor.dataway.web.ApiInfoController°Ø mappingTo: °Æ[/interface-ui/api/api-info]°Ø.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[b8a331bb9ffc44ec840912e900d89efa] -> bindType °Æclass net.hasor.dataway.web.ApiListController°Ø mappingTo: °Æ[/interface-ui/api/api-list]°Ø.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[fccedb48fceb4ddfba3d3418ceb27fc5] -> bindType °Æclass net.hasor.dataway.web.ApiHistoryGetController°Ø mappingTo: °Æ[/interface-ui/api/get-history]°Ø.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[d73c13959ee5421788912acc4dd47d76] -> bindType °Æclass net.hasor.dataway.web.DisableController°Ø mappingTo: °Æ[/interface-ui/api/disable]°Ø.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[2456e037979c484bac56dda79dd3faee] -> bindType °Æclass net.hasor.dataway.web.SmokeController°Ø mappingTo: °Æ[/interface-ui/api/smoke]°Ø.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[2d36e2c7dc644e80a82f43af0327d808] -> bindType °Æclass net.hasor.dataway.web.SaveApiController°Ø mappingTo: °Æ[/interface-ui/api/save-api]°Ø.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[6bb0e048ce1b4f93ad92a5e44c62781e] -> bindType °Æclass net.hasor.dataway.web.PublishController°Ø mappingTo: °Æ[/interface-ui/api/publish]°Ø.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[6a7fbf3f87b6458c8589f971c9462752] -> bindType °Æclass net.hasor.dataway.web.PerformController°Ø mappingTo: °Æ[/interface-ui/api/perform]°Ø.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[59668a18a0e44938a70909dea3c352fa] -> bindType °Æclass net.hasor.dataway.web.DeleteController°Ø mappingTo: °Æ[/interface-ui/api/delete]°Ø.
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.web.render.RenderWebPlugin
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.startup.StartupModule
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.aop.AopModule
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataql.fx.FxModule
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class com.dataway.cn.config.ExampleModule
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.core.binder.AbstractBinder:70 ] installModule installModule ->net.hasor.db.JdbcModule@269308cc
+2020-08-13 07:04:06 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.spring.boot.BasicHasorConfiguration$$Lambda$638/324946354
+2020-08-13 07:04:07 [ INFO ] [main] [ com.alibaba.druid.pool.DruidDataSource:1010 ] init {dataSource-1} inited
+2020-08-13 07:04:07 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:136 ] onStart dataway dbMapping MySQL to default
+2020-08-13 07:04:07 [ INFO ] [main] [ net.hasor.web.render.RenderWebPlugin:73 ] onStart RenderPlugin init -> useLayout=false, layoutPath=/layout, templatePath=/templates, placeholder=content_placeholder, defaultLayout=default.html
+2020-08-13 07:04:07 [ INFO ] [Hasor-EventPool-1] [ net.hasor.core.context.TemplateAppContext:440 ] lambda$start$13 Hasor StartCompleted!
+2020-08-13 07:04:07 [ INFO ] [main] [ net.hasor.spring.boot.WebHasorConfiguration:77 ] setImportMetadata @EnableHasorWeb -> filterPath='/*', filterOrder='0', filterWorkAt='Filter'
+2020-08-13 07:04:30 [ INFO ] [main] [ org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58 ] <init> Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-08-13 07:04:35 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService
+2020-08-13 07:04:35 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService 'asyncThreadPool'
+2020-08-13 07:04:35 [ INFO ] [main] [ springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69 ] initHandlerMethods Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-13 07:04:53 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService 'taskScheduler'
+2020-08-13 07:04:54 [ INFO ] [main] [ springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160 ] start Context refreshed
+2020-08-13 07:04:54 [ INFO ] [main] [ springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163 ] start Found 1 custom documentation plugin(s)
+2020-08-13 07:04:54 [ INFO ] [main] [ springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41 ] scan Scanning for api listing references
+2020-08-13 07:04:58 [ INFO ] [main] [ springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40 ] startingWith Generating unique operation named: getByIdUsingGET_1
+2020-08-13 07:04:58 [ INFO ] [main] [ springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40 ] startingWith Generating unique operation named: getPageListUsingGET_1
+2020-08-13 07:04:58 [ INFO ] [main] [ org.springframework.scheduling.quartz.SchedulerFactoryBean:732 ] startScheduler Will start Quartz Scheduler [DefaultQuartzScheduler] in 1 seconds
+2020-08-13 07:04:58 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:61 ] logStarted Started DatawayApplicationTests in 79.854 seconds (JVM running for 83.134)
+2020-08-13 07:04:58 [ INFO ] [main] [ com.dataway.cn.component.WebServer:28 ] run ø™ º∑¢≤ºWebService£°
+2020-08-13 07:04:58 [ INFO ] [main] [ com.dataway.cn.component.WebServer:29 ] run ∑¢≤ºµÿ÷∑Œ™£∫http://127.0.0.1:9003/color
+2020-08-13 07:04:59 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.springframework.scheduling.quartz.SchedulerFactoryBean$1:748 ] run Starting Quartz Scheduler now, after delay of 1 seconds
+2020-08-13 07:04:59 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge135ab1rikte61gtfy3d|46d0f89c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge135ab1rikte61gtfy3d|46d0f89c, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.1.133:3306/dataway?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 120, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2020-08-13 07:05:00 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:866 ] recoverJobs Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-08-13 07:05:00 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:876 ] recoverJobs Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-08-13 07:05:00 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:889 ] recoverJobs Recovery complete.
+2020-08-13 07:05:00 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:896 ] recoverJobs Removed 0 'complete' triggers.
+2020-08-13 07:05:00 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:901 ] recoverJobs Removed 0 stale fired job entries.
+2020-08-13 07:05:00 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.core.QuartzScheduler:547 ] start Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-08-13 07:05:01 [ INFO ] [main] [ com.dataway.cn.component.WebServer:33 ] run ∑¢≤º≥…π¶£°
+2020-08-13 07:05:07 [ INFO ] [Hasor-ShutdownHook] [ net.hasor.core.context.TemplateAppContext:462 ] shutdown Hasor StartCompleted.
+2020-08-13 07:05:07 [ INFO ] [SpringContextShutdownHook] [ org.quartz.core.QuartzScheduler:585 ] standby Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-08-13 07:05:07 [ INFO ] [SpringContextShutdownHook] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218 ] shutdown Shutting down ExecutorService 'taskScheduler'
+2020-08-13 07:05:07 [ INFO ] [SpringContextShutdownHook] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218 ] shutdown Shutting down ExecutorService 'asyncThreadPool'
+2020-08-13 07:05:07 [ INFO ] [SpringContextShutdownHook] [ org.quartz.core.QuartzScheduler:666 ] shutdown Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-08-13 07:05:07 [ INFO ] [SpringContextShutdownHook] [ org.quartz.core.QuartzScheduler:585 ] standby Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-08-13 07:05:07 [ INFO ] [SpringContextShutdownHook] [ org.quartz.core.QuartzScheduler:740 ] shutdown Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-08-13 07:05:07 [ INFO ] [SpringContextShutdownHook] [ org.springframework.scheduling.quartz.SchedulerFactoryBean:845 ] destroy Shutting down Quartz Scheduler
+2020-08-13 07:05:07 [ INFO ] [SpringContextShutdownHook] [ com.alibaba.druid.pool.DruidDataSource:2003 ] close {dataSource-1} closing ...
+2020-08-13 07:05:07 [ INFO ] [SpringContextShutdownHook] [ com.alibaba.druid.pool.DruidDataSource:2075 ] close {dataSource-1} closed
+2020-08-13 20:08:51 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:55 ] logStarting Starting DatawayApplication on DESKTOP-5Q6QS10 with PID 17368 (Y:\work_space\idea_work_space\dataway\target\classes started by Gavin in Y:\work_space\idea_work_space\dataway)
+2020-08-13 20:08:51 [ INFO ] [main] [ org.springframework.boot.SpringApplication:655 ] logStartupProfileInfo The following profiles are active: custom
+2020-08-13 20:08:55 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'shiroConfig' of type [com.dataway.cn.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$f3add686] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 20:08:55 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 20:08:56 [ INFO ] [main] [ org.reflections.Reflections:239 ] scan Reflections took 158 ms to scan 1 urls, producing 60 keys and 114 values 
+2020-08-13 20:08:56 [ INFO ] [main] [ com.dataway.cn.config.shiro.ShiroConfig:192 ] getUrlAndMethodSet @Pass:["/api/v1/login"]
+2020-08-13 20:08:56 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 20:08:57 [ INFO ] [main] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108 ] initialize Tomcat initialized with port(s): 8888 (http)
+2020-08-13 20:08:57 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-13 20:08:57 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting service [Tomcat]
+2020-08-13 20:08:57 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-13 20:08:57 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing Spring embedded WebApplicationContext
+2020-08-13 20:08:57 [ INFO ] [main] [ org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284 ] prepareWebApplicationContext Root WebApplicationContext: initialization completed in 6366 ms
+2020-08-13 20:08:57 [ INFO ] [main] [ net.hasor.spring.boot.BasicHasorConfiguration:140 ] setImportMetadata 
+ _    _                        ____              _
+| |  | |                      |  _ \            | |
+| |__| | __ _ ___  ___  _ __  | |_) | ___   ___ | |_
+|  __  |/ _` / __|/ _ \| '__| |  _ < / _ \ / _ \| __|
+| |  | | (_| \__ \ (_) | |    | |_) | (_) | (_) | |_
+|_|  |_|\__,_|___/\___/|_|    |____/ \___/ \___/ \__|
+
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.Hasor:224 ] build runMode at Full ,runPath at Y:\work_space\idea_work_space\dataway
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/core-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-core/4.1.4/hasor-core-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataway-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataway/4.1.4/hasor-dataway-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/web-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-web/4.1.4/hasor-web-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/db-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-db/4.1.4/hasor-db-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql/4.1.4/hasor-dataql-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-fx-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql-fx/4.1.4/hasor-dataql-fx-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:240 ] initEnvironment loadPackages = com.*, net.*, net.hasor.*, net.hasor.dataql.*, net.hasor.dataql.fx.*, net.hasor.dataway.*, net.hasor.db.*, net.hasor.web.*, org.*
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataway.config.DatawayModule
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:63 ] loadModule dataway api workAt /api/
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:164 ] addVariable var -> HASOR_DATAQL_DATAWAY_API_URL = /api/.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:72 ] loadModule dataway self isolation ->net.hasor.dataway.config.DatawayModule
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:91 ] loadModule dataway admin workAt /interface-ui/
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[b8492d793a4f4c0cbab09e1af695445f] -> bindType ‚Äòclass net.hasor.dataway.web.ApiDetailController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-detail]‚Äô.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[30c32b5a24fa4eb5a4558c18a3c97be7] -> bindType ‚Äòclass net.hasor.dataway.web.ApiHistoryListController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-history]‚Äô.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[a77082d2fec24522bbe1a9f6ba75e75c] -> bindType ‚Äòclass net.hasor.dataway.web.ApiInfoController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-info]‚Äô.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[0aab45b660444720b92aab166e9126ce] -> bindType ‚Äòclass net.hasor.dataway.web.ApiListController‚Äô mappingTo: ‚Äò[/interface-ui/api/api-list]‚Äô.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[4c1c511c1bd04928ba7c2ae03b5129ef] -> bindType ‚Äòclass net.hasor.dataway.web.ApiHistoryGetController‚Äô mappingTo: ‚Äò[/interface-ui/api/get-history]‚Äô.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[8e134c2f68ec4f95a9c61af4ff759110] -> bindType ‚Äòclass net.hasor.dataway.web.DisableController‚Äô mappingTo: ‚Äò[/interface-ui/api/disable]‚Äô.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[d6eb19fd6c74467f81ad91f0c59e99f2] -> bindType ‚Äòclass net.hasor.dataway.web.SmokeController‚Äô mappingTo: ‚Äò[/interface-ui/api/smoke]‚Äô.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[6aa796c77d7d496a917b1442495734dc] -> bindType ‚Äòclass net.hasor.dataway.web.SaveApiController‚Äô mappingTo: ‚Äò[/interface-ui/api/save-api]‚Äô.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[91a54e3c280e4a53ba2c8eeadf0851dd] -> bindType ‚Äòclass net.hasor.dataway.web.PublishController‚Äô mappingTo: ‚Äò[/interface-ui/api/publish]‚Äô.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[8179310416004845a6293a0c09f8bc46] -> bindType ‚Äòclass net.hasor.dataway.web.PerformController‚Äô mappingTo: ‚Äò[/interface-ui/api/perform]‚Äô.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[99e7b812caab4202b0ccdb891f03d00d] -> bindType ‚Äòclass net.hasor.dataway.web.DeleteController‚Äô mappingTo: ‚Äò[/interface-ui/api/delete]‚Äô.
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.web.render.RenderWebPlugin
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.startup.StartupModule
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.aop.AopModule
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataql.fx.FxModule
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class com.dataway.cn.config.ExampleModule
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.binder.AbstractBinder:70 ] installModule installModule ->net.hasor.db.JdbcModule@48e74764
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.spring.boot.BasicHasorConfiguration$$Lambda$446/1051155205
+2020-08-13 20:08:58 [ INFO ] [main] [ com.alibaba.druid.pool.DruidDataSource:1010 ] init {dataSource-1} inited
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:136 ] onStart dataway dbMapping MySQL to default
+2020-08-13 20:08:58 [ INFO ] [main] [ net.hasor.web.render.RenderWebPlugin:73 ] onStart RenderPlugin init -> useLayout=false, layoutPath=/layout, templatePath=/templates, placeholder=content_placeholder, defaultLayout=default.html
+2020-08-13 20:08:59 [ INFO ] [Hasor-EventPool-1] [ net.hasor.core.context.TemplateAppContext:440 ] lambda$start$13 Hasor StartCompleted!
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.spring.boot.WebHasorConfiguration:77 ] setImportMetadata @EnableHasorWeb -> filterPath='/*', filterOrder='0', filterWorkAt='Filter'
+2020-08-13 20:08:59 [ INFO ] [main] [ org.springframework.boot.web.servlet.DynamicRegistrationBean:110 ] register Servlet statViewServlet was not registered (possibly already registered?)
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.startup.RuntimeListener:140 ] contextInitialized ServletContext Attribut is net.hasor.core.AppContext
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiDetailController‚Äô mappingTo: ‚Äò/interface-ui/api/api-detail‚Äô.
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiHistoryListController‚Äô mappingTo: ‚Äò/interface-ui/api/api-history‚Äô.
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiInfoController‚Äô mappingTo: ‚Äò/interface-ui/api/api-info‚Äô.
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiListController‚Äô mappingTo: ‚Äò/interface-ui/api/api-list‚Äô.
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.ApiHistoryGetController‚Äô mappingTo: ‚Äò/interface-ui/api/get-history‚Äô.
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.DisableController‚Äô mappingTo: ‚Äò/interface-ui/api/disable‚Äô.
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.SmokeController‚Äô mappingTo: ‚Äò/interface-ui/api/smoke‚Äô.
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.SaveApiController‚Äô mappingTo: ‚Äò/interface-ui/api/save-api‚Äô.
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.PublishController‚Äô mappingTo: ‚Äò/interface-ui/api/publish‚Äô.
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.PerformController‚Äô mappingTo: ‚Äò/interface-ui/api/perform‚Äô.
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.invoker.InvokerContext:56 ] initContext mapingTo -> type ‚Äòclass net.hasor.dataway.web.DeleteController‚Äô mappingTo: ‚Äò/interface-ui/api/delete‚Äô.
+2020-08-13 20:08:59 [ INFO ] [main] [ net.hasor.web.startup.RuntimeFilter:83 ] init RuntimeFilter started, at Apache Tomcat/9.0.35
+2020-08-13 20:09:03 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1036 ] instantiate Using ConnectionProvider class 'org.quartz.utils.C3p0PoolingConnectionProvider' for data source 'myDS'
+2020-08-13 20:09:03 [ INFO ] [MLog-Init-Reporter] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log MLog clients using slf4j logging.
+2020-08-13 20:09:03 [ INFO ] [main] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2020-08-13 20:09:03 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1220 ] instantiate Using default implementation for ThreadExecutor
+2020-08-13 20:09:03 [ INFO ] [main] [ org.quartz.simpl.SimpleThreadPool:268 ] initialize Job execution threads will use class loader of thread: main
+2020-08-13 20:09:03 [ INFO ] [main] [ org.quartz.core.SchedulerSignalerImpl:61 ] <init> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-08-13 20:09:03 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:229 ] <init> Quartz Scheduler v.2.3.2 created.
+2020-08-13 20:09:03 [ INFO ] [main] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:675 ] initialize Using thread monitor-based data access locking (synchronization).
+2020-08-13 20:09:03 [ INFO ] [main] [ org.quartz.impl.jdbcjobstore.JobStoreTX:59 ] initialize JobStoreTX initialized.
+2020-08-13 20:09:03 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:294 ] initialize Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+2020-08-13 20:09:03 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1374 ] instantiate Quartz scheduler 'DefaultQuartzScheduler' initialized from an externally provided properties instance.
+2020-08-13 20:09:03 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1378 ] instantiate Quartz scheduler version: 2.3.2
+2020-08-13 20:09:03 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:2293 ] setJobFactory JobFactory set to: com.dataway.cn.component.JobFactory@2adc1e84
+2020-08-13 20:09:06 [ INFO ] [main] [ org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58 ] <init> Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-08-13 20:09:06 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService
+2020-08-13 20:09:06 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService 'asyncThreadPool'
+2020-08-13 20:09:06 [ INFO ] [main] [ springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69 ] initHandlerMethods Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-13 20:09:08 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService 'taskScheduler'
+2020-08-13 20:09:08 [ INFO ] [main] [ org.apache.juli.logging.DirectJDKLog:173 ] log Starting ProtocolHandler ["http-nio-8888"]
+2020-08-13 20:09:08 [ INFO ] [main] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220 ] start Tomcat started on port(s): 8888 (http) with context path '/api/v1'
+2020-08-13 20:09:08 [ INFO ] [main] [ springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160 ] start Context refreshed
+2020-08-13 20:09:08 [ INFO ] [main] [ springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163 ] start Found 1 custom documentation plugin(s)
+2020-08-13 20:09:09 [ INFO ] [main] [ springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41 ] scan Scanning for api listing references
+2020-08-13 20:09:09 [ INFO ] [main] [ springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40 ] startingWith Generating unique operation named: getByIdUsingGET_1
+2020-08-13 20:09:09 [ INFO ] [main] [ springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40 ] startingWith Generating unique operation named: getPageListUsingGET_1
+2020-08-13 20:09:09 [ INFO ] [main] [ org.springframework.scheduling.quartz.SchedulerFactoryBean:732 ] startScheduler Will start Quartz Scheduler [DefaultQuartzScheduler] in 1 seconds
+2020-08-13 20:09:09 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:61 ] logStarted Started DatawayApplication in 20.748 seconds (JVM running for 28.06)
+2020-08-13 20:09:09 [ INFO ] [main] [ com.dataway.cn.component.WebServer:28 ] run ÂºÄÂßãÂèëÂ∏ÉWebServiceÔºÅ
+2020-08-13 20:09:09 [ INFO ] [main] [ com.dataway.cn.component.WebServer:29 ] run ÂèëÂ∏ÉÂú∞ÂùÄ‰∏∫Ôºöhttp://127.0.0.1:9003/color
+2020-08-13 20:09:10 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.springframework.scheduling.quartz.SchedulerFactoryBean$1:748 ] run Starting Quartz Scheduler now, after delay of 1 seconds
+2020-08-13 20:09:10 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge135ab1sameb81xohfa1|5d2e65bd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge135ab1sameb81xohfa1|5d2e65bd, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.1.133:3306/dataway?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 120, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2020-08-13 20:09:11 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:866 ] recoverJobs Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-08-13 20:09:11 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:973 ] recoverMisfiredJobs Handling 1 trigger(s) that missed their scheduled fire-time.
+2020-08-13 20:09:11 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:876 ] recoverJobs Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-08-13 20:09:11 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:889 ] recoverJobs Recovery complete.
+2020-08-13 20:09:11 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:896 ] recoverJobs Removed 0 'complete' triggers.
+2020-08-13 20:09:11 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:901 ] recoverJobs Removed 0 stale fired job entries.
+2020-08-13 20:09:11 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.core.QuartzScheduler:547 ] start Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-08-13 20:09:11 [ INFO ] [DefaultQuartzScheduler_Worker-1] [ com.dataway.cn.scheduling.job.task.TestTask:19 ] execute TestTask JobÊâßË°åÊó∂Èó¥ÔºöThu Aug 13 20:09:11 CST 2020
+2020-08-13 20:09:11 [ INFO ] [main] [ com.dataway.cn.component.WebServer:33 ] run ÂèëÂ∏ÉÊàêÂäüÔºÅ
+2020-08-13 20:09:12 [ INFO ] [RMI TCP Connection(2)-192.168.1.1] [ org.apache.juli.logging.DirectJDKLog:173 ] log Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-13 20:09:12 [ INFO ] [RMI TCP Connection(2)-192.168.1.1] [ org.springframework.web.servlet.FrameworkServlet:525 ] initServletBean Initializing Servlet 'dispatcherServlet'
+2020-08-13 20:09:12 [ INFO ] [RMI TCP Connection(2)-192.168.1.1] [ org.springframework.web.servlet.FrameworkServlet:547 ] initServletBean Completed initialization in 44 ms
+2020-08-13 20:09:13 [ INFO ] [RMI TCP Connection(4)-192.168.1.1] [ org.apache.activemq.broker.BrokerService:287 ] <clinit> Loaded the Bouncy Castle security provider at position: 11
+2020-08-13 20:09:13 [ INFO ] [RMI TCP Connection(4)-192.168.1.1] [ org.apache.activemq.broker.BrokerService:689 ] doStartPersistenceAdapter Using Persistence Adapter: MemoryPersistenceAdapter
+2020-08-13 20:09:13 [ INFO ] [JMX connector] [ org.apache.activemq.broker.jmx.ManagementContext$1:171 ] run JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2020-08-13 20:09:13 [ INFO ] [RMI TCP Connection(4)-192.168.1.1] [ org.apache.activemq.broker.BrokerService:752 ] doStartBroker Apache ActiveMQ 5.15.12 (localhost, ID:DESKTOP-5Q6QS10-61258-1597320553201-0:1) is starting
+2020-08-13 20:09:13 [ INFO ] [RMI TCP Connection(4)-192.168.1.1] [ org.apache.activemq.broker.BrokerService:779 ] doStartBroker Apache ActiveMQ 5.15.12 (localhost, ID:DESKTOP-5Q6QS10-61258-1597320553201-0:1) started
+2020-08-13 20:09:13 [ INFO ] [RMI TCP Connection(4)-192.168.1.1] [ org.apache.activemq.broker.BrokerService:780 ] doStartBroker For help or more information please see: http://activemq.apache.org
+2020-08-13 20:09:13 [ INFO ] [RMI TCP Connection(4)-192.168.1.1] [ org.apache.activemq.broker.TransportConnector:265 ] start Connector vm://localhost started
+2020-08-13 20:17:13 [ INFO ] [Hasor-ShutdownHook] [ net.hasor.core.context.TemplateAppContext:462 ] shutdown Hasor StartCompleted.
+2020-08-13 20:17:14 [ INFO ] [ActiveMQ ShutdownHook] [ org.apache.activemq.broker.BrokerService:842 ] stop Apache ActiveMQ 5.15.12 (localhost, ID:DESKTOP-5Q6QS10-61258-1597320553201-0:1) is shutting down
+2020-08-13 20:17:14 [ INFO ] [SpringContextShutdownHook] [ org.quartz.core.QuartzScheduler:585 ] standby Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-08-13 20:35:26 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:55 ] logStarting Starting DatawayApplicationTests on DESKTOP-5Q6QS10 with PID 6360 (started by Gavin in Y:\work_space\idea_work_space\dataway)
+2020-08-13 20:35:26 [ INFO ] [main] [ org.springframework.boot.SpringApplication:655 ] logStartupProfileInfo The following profiles are active: custom
+2020-08-13 20:35:34 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'shiroConfig' of type [com.dataway.cn.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$fa7945fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 20:35:35 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 20:35:35 [ INFO ] [main] [ org.reflections.Reflections:239 ] scan Reflections took 241 ms to scan 2 urls, producing 61 keys and 115 values 
+2020-08-13 20:35:36 [ INFO ] [main] [ com.dataway.cn.config.shiro.ShiroConfig:192 ] getUrlAndMethodSet @Pass:["/api/v1/login"]
+2020-08-13 20:35:36 [ INFO ] [main] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 ] postProcessAfterInitialization Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 20:35:43 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1036 ] instantiate Using ConnectionProvider class 'org.quartz.utils.C3p0PoolingConnectionProvider' for data source 'myDS'
+2020-08-13 20:35:43 [ INFO ] [MLog-Init-Reporter] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log MLog clients using slf4j logging.
+2020-08-13 20:35:43 [ INFO ] [main] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2020-08-13 20:35:44 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1220 ] instantiate Using default implementation for ThreadExecutor
+2020-08-13 20:35:44 [ INFO ] [main] [ org.quartz.simpl.SimpleThreadPool:268 ] initialize Job execution threads will use class loader of thread: main
+2020-08-13 20:35:44 [ INFO ] [main] [ org.quartz.core.SchedulerSignalerImpl:61 ] <init> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-08-13 20:35:44 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:229 ] <init> Quartz Scheduler v.2.3.2 created.
+2020-08-13 20:35:44 [ INFO ] [main] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:675 ] initialize Using thread monitor-based data access locking (synchronization).
+2020-08-13 20:35:44 [ INFO ] [main] [ org.quartz.impl.jdbcjobstore.JobStoreTX:59 ] initialize JobStoreTX initialized.
+2020-08-13 20:35:44 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:294 ] initialize Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+2020-08-13 20:35:44 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1374 ] instantiate Quartz scheduler 'DefaultQuartzScheduler' initialized from an externally provided properties instance.
+2020-08-13 20:35:44 [ INFO ] [main] [ org.quartz.impl.StdSchedulerFactory:1378 ] instantiate Quartz scheduler version: 2.3.2
+2020-08-13 20:35:44 [ INFO ] [main] [ org.quartz.core.QuartzScheduler:2293 ] setJobFactory JobFactory set to: com.dataway.cn.component.JobFactory@634f58d2
+2020-08-13 20:35:50 [ INFO ] [main] [ net.hasor.spring.boot.BasicHasorConfiguration:140 ] setImportMetadata 
+ _    _                        ____              _
+| |  | |                      |  _ \            | |
+| |__| | __ _ ___  ___  _ __  | |_) | ___   ___ | |_
+|  __  |/ _` / __|/ _ \| '__| |  _ < / _ \ / _ \| __|
+| |  | | (_| \__ \ (_) | |    | |_) | (_) | (_) | |_
+|_|  |_|\__,_|___/\___/|_|    |____/ \___/ \___/ \__|
+
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.core.Hasor:224 ] build runMode at Full ,runPath at Y:\work_space\idea_work_space\dataway
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/core-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-core/4.1.4/hasor-core-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataway-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataway/4.1.4/hasor-dataway-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/web-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-web/4.1.4/hasor-web-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/db-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-db/4.1.4/hasor-db-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql/4.1.4/hasor-dataql-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.core.setting.StandardContextSettings:130 ] readyLoad addConfig '/META-INF/hasor-framework/dataql-fx-hconfig.xml' in 'jar:file:/Y:/develop_tool/Maven/repository/net/hasor/hasor-dataql-fx/4.1.4/hasor-dataql-fx-4.1.4.jar!/META-INF/hasor.schemas'
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:240 ] initEnvironment loadPackages = com.*, net.*, net.hasor.*, net.hasor.dataql.*, net.hasor.dataql.fx.*, net.hasor.dataway.*, net.hasor.db.*, net.hasor.web.*, org.*
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataway.config.DatawayModule
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:63 ] loadModule dataway api workAt /api/
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.core.environment.AbstractEnvironment:164 ] addVariable var -> HASOR_DATAQL_DATAWAY_API_URL = /api/.
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:72 ] loadModule dataway self isolation ->net.hasor.dataway.config.DatawayModule
+2020-08-13 20:35:51 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:91 ] loadModule dataway admin workAt /interface-ui/
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[71024fccdee34b26b858f69501aa986c] -> bindType °Æclass net.hasor.dataway.web.ApiDetailController°Ø mappingTo: °Æ[/interface-ui/api/api-detail]°Ø.
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[f422b188ce314d189f16b06542d9d7b2] -> bindType °Æclass net.hasor.dataway.web.ApiHistoryListController°Ø mappingTo: °Æ[/interface-ui/api/api-history]°Ø.
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[d4a4825e50444d99a8497cec06f83187] -> bindType °Æclass net.hasor.dataway.web.ApiInfoController°Ø mappingTo: °Æ[/interface-ui/api/api-info]°Ø.
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[83b2129a41384a11adfe852dd8b387f3] -> bindType °Æclass net.hasor.dataway.web.ApiListController°Ø mappingTo: °Æ[/interface-ui/api/api-list]°Ø.
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[b683246df11e4ce68a55ae387eb11c80] -> bindType °Æclass net.hasor.dataway.web.ApiHistoryGetController°Ø mappingTo: °Æ[/interface-ui/api/get-history]°Ø.
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[9bc811bf69384a9cbe8c90a70c0a82a1] -> bindType °Æclass net.hasor.dataway.web.DisableController°Ø mappingTo: °Æ[/interface-ui/api/disable]°Ø.
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[b54e094e61b847bfb9e34ec3437fbfba] -> bindType °Æclass net.hasor.dataway.web.SmokeController°Ø mappingTo: °Æ[/interface-ui/api/smoke]°Ø.
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[b0a70aa3e0674e4e8c1343f4d3443f67] -> bindType °Æclass net.hasor.dataway.web.SaveApiController°Ø mappingTo: °Æ[/interface-ui/api/save-api]°Ø.
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[259402d917f546e886bb7cfcbe4d8670] -> bindType °Æclass net.hasor.dataway.web.PublishController°Ø mappingTo: °Æ[/interface-ui/api/publish]°Ø.
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[1505ef22790f4072a4a8ecb9ca36f745] -> bindType °Æclass net.hasor.dataway.web.PerformController°Ø mappingTo: °Æ[/interface-ui/api/perform]°Ø.
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.web.binder.InvokerWebApiBinder$5:287 ] with mapingTo[28c043de7bf840beba5c72ec51036ec0] -> bindType °Æclass net.hasor.dataway.web.DeleteController°Ø mappingTo: °Æ[/interface-ui/api/delete]°Ø.
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.web.render.RenderWebPlugin
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.startup.StartupModule
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.core.exts.aop.AopModule
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.dataql.fx.FxModule
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class com.dataway.cn.config.ExampleModule
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.core.binder.AbstractBinder:70 ] installModule installModule ->net.hasor.db.JdbcModule@687b0ddc
+2020-08-13 20:35:52 [ INFO ] [main] [ net.hasor.core.context.TemplateAppContext:389 ] installModule loadModule class net.hasor.spring.boot.BasicHasorConfiguration$$Lambda$638/1863346936
+2020-08-13 20:35:53 [ INFO ] [main] [ com.alibaba.druid.pool.DruidDataSource:1010 ] init {dataSource-1} inited
+2020-08-13 20:35:53 [ INFO ] [main] [ net.hasor.dataway.config.DatawayModule:136 ] onStart dataway dbMapping MySQL to default
+2020-08-13 20:35:53 [ INFO ] [main] [ net.hasor.web.render.RenderWebPlugin:73 ] onStart RenderPlugin init -> useLayout=false, layoutPath=/layout, templatePath=/templates, placeholder=content_placeholder, defaultLayout=default.html
+2020-08-13 20:35:53 [ INFO ] [Hasor-EventPool-1] [ net.hasor.core.context.TemplateAppContext:440 ] lambda$start$13 Hasor StartCompleted!
+2020-08-13 20:35:53 [ INFO ] [main] [ net.hasor.spring.boot.WebHasorConfiguration:77 ] setImportMetadata @EnableHasorWeb -> filterPath='/*', filterOrder='0', filterWorkAt='Filter'
+2020-08-13 20:35:57 [ INFO ] [main] [ org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58 ] <init> Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-08-13 20:35:59 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService
+2020-08-13 20:35:59 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService 'asyncThreadPool'
+2020-08-13 20:35:59 [ INFO ] [main] [ springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69 ] initHandlerMethods Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-13 20:36:07 [ INFO ] [main] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181 ] initialize Initializing ExecutorService 'taskScheduler'
+2020-08-13 20:36:09 [ INFO ] [main] [ springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160 ] start Context refreshed
+2020-08-13 20:36:09 [ INFO ] [main] [ springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163 ] start Found 1 custom documentation plugin(s)
+2020-08-13 20:36:09 [ INFO ] [main] [ springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41 ] scan Scanning for api listing references
+2020-08-13 20:36:12 [ INFO ] [main] [ springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40 ] startingWith Generating unique operation named: getByIdUsingGET_1
+2020-08-13 20:36:13 [ INFO ] [main] [ springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40 ] startingWith Generating unique operation named: getPageListUsingGET_1
+2020-08-13 20:36:13 [ INFO ] [main] [ org.springframework.scheduling.quartz.SchedulerFactoryBean:732 ] startScheduler Will start Quartz Scheduler [DefaultQuartzScheduler] in 1 seconds
+2020-08-13 20:36:13 [ INFO ] [main] [ org.springframework.boot.StartupInfoLogger:61 ] logStarted Started DatawayApplicationTests in 48.114 seconds (JVM running for 51.528)
+2020-08-13 20:36:13 [ INFO ] [main] [ com.dataway.cn.component.WebServer:28 ] run ø™ º∑¢≤ºWebService£°
+2020-08-13 20:36:13 [ INFO ] [main] [ com.dataway.cn.component.WebServer:29 ] run ∑¢≤ºµÿ÷∑Œ™£∫http://127.0.0.1:9003/color
+2020-08-13 20:36:14 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.springframework.scheduling.quartz.SchedulerFactoryBean$1:748 ] run Starting Quartz Scheduler now, after delay of 1 seconds
+2020-08-13 20:36:14 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger:212 ] log Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge135ab1sbkpcy1u73938|55adcf9e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge135ab1sbkpcy1u73938|55adcf9e, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.1.133:3306/dataway?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 120, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2020-08-13 20:36:16 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:866 ] recoverJobs Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-08-13 20:36:16 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:876 ] recoverJobs Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-08-13 20:36:16 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:889 ] recoverJobs Recovery complete.
+2020-08-13 20:36:16 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:896 ] recoverJobs Removed 0 'complete' triggers.
+2020-08-13 20:36:16 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.impl.jdbcjobstore.JobStoreSupport:901 ] recoverJobs Removed 0 stale fired job entries.
+2020-08-13 20:36:16 [ INFO ] [Quartz Scheduler [DefaultQuartzScheduler]] [ org.quartz.core.QuartzScheduler:547 ] start Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-08-13 20:36:17 [ INFO ] [main] [ com.dataway.cn.component.WebServer:33 ] run ∑¢≤º≥…π¶£°
+2020-08-13 20:36:21 [ INFO ] [Hasor-ShutdownHook] [ net.hasor.core.context.TemplateAppContext:462 ] shutdown Hasor StartCompleted.
+2020-08-13 20:36:21 [ INFO ] [SpringContextShutdownHook] [ org.quartz.core.QuartzScheduler:585 ] standby Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-08-13 20:36:21 [ INFO ] [SpringContextShutdownHook] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218 ] shutdown Shutting down ExecutorService 'taskScheduler'
+2020-08-13 20:36:21 [ INFO ] [SpringContextShutdownHook] [ org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218 ] shutdown Shutting down ExecutorService 'asyncThreadPool'
+2020-08-13 20:36:21 [ INFO ] [SpringContextShutdownHook] [ org.quartz.core.QuartzScheduler:666 ] shutdown Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-08-13 20:36:21 [ INFO ] [SpringContextShutdownHook] [ org.quartz.core.QuartzScheduler:585 ] standby Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-08-13 20:36:21 [ INFO ] [SpringContextShutdownHook] [ org.quartz.core.QuartzScheduler:740 ] shutdown Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-08-13 20:36:21 [ INFO ] [SpringContextShutdownHook] [ org.springframework.scheduling.quartz.SchedulerFactoryBean:845 ] destroy Shutting down Quartz Scheduler
+2020-08-13 20:36:21 [ INFO ] [SpringContextShutdownHook] [ com.alibaba.druid.pool.DruidDataSource:2003 ] close {dataSource-1} closing ...
+2020-08-13 20:36:21 [ INFO ] [SpringContextShutdownHook] [ com.alibaba.druid.pool.DruidDataSource:2075 ] close {dataSource-1} closed

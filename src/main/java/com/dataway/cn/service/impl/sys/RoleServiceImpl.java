@@ -14,9 +14,7 @@ import com.dataway.cn.service.sys.IRoleService;
 import com.dataway.cn.service.sys.IRoleToMenuService;
 import com.dataway.cn.utils.BeanUtil;
 import com.dataway.cn.vo.RoleModel;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -28,12 +26,16 @@ import org.springframework.stereotype.Service;
  * @since 2018-05-03
  */
 @Service
-@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements IRoleService {
 
     private final RoleMapper roleMapper;
 
     private final IRoleToMenuService roleToMenuService;
+
+    public RoleServiceImpl(RoleMapper roleMapper, IRoleToMenuService roleToMenuService) {
+        this.roleMapper = roleMapper;
+        this.roleToMenuService = roleToMenuService;
+    }
 
     /**
      * 分页获取角色列表

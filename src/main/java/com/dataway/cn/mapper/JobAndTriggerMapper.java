@@ -4,11 +4,13 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.dataway.cn.vo.JobAndTrigger;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 
 /**
  * @author Phil
  */
+@Repository
 public interface JobAndTriggerMapper extends BaseMapper<JobAndTrigger> {
 
 	/**

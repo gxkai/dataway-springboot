@@ -1,1 +1,41 @@
-2020-08-12 20:42:57 [ WARN ] [main] [ com.baomidou.mybatisplus.core.metadata.TableInfoHelper:296 ] initTableFields Warn: Could not find @TableId in Class: com.dataway.cn.vo.JobAndTrigger.
+2020-08-13 06:53:15 [ WARN ] [main] [ com.baomidou.mybatisplus.core.metadata.TableInfoHelper:296 ] initTableFields Warn: Could not find @TableId in Class: com.dataway.cn.vo.JobAndTrigger.
+2020-08-13 06:58:02 [ WARN ] [main] [ com.baomidou.mybatisplus.core.metadata.TableInfoHelper:296 ] initTableFields Warn: Could not find @TableId in Class: com.dataway.cn.vo.JobAndTrigger.
+2020-08-13 07:03:56 [ WARN ] [main] [ com.baomidou.mybatisplus.core.metadata.TableInfoHelper:296 ] initTableFields Warn: Could not find @TableId in Class: com.dataway.cn.vo.JobAndTrigger.
+2020-08-13 07:05:07 [ WARN ] [SpringContextShutdownHook] [ org.springframework.beans.factory.support.DisposableBeanAdapter:346 ] invokeCustomDestroyMethod Destroy method 'shutdown' on bean with name 'webAppContext' threw an exception
+java.lang.IllegalStateException: the container is not started yet.
+	at net.hasor.core.context.TemplateAppContext.tryShutdown(TemplateAppContext.java:530) ~[hasor-core-4.1.4.jar:?]
+	at net.hasor.core.context.TemplateAppContext.shutdown(TemplateAppContext.java:447) ~[hasor-core-4.1.4.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_31]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:579) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:551) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1091) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:512) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1084) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+2020-08-13 20:09:00 [ WARN ] [main] [ com.baomidou.mybatisplus.core.metadata.TableInfoHelper:296 ] initTableFields Warn: Could not find @TableId in Class: com.dataway.cn.vo.JobAndTrigger.
+2020-08-13 20:35:39 [ WARN ] [main] [ com.baomidou.mybatisplus.core.metadata.TableInfoHelper:296 ] initTableFields Warn: Could not find @TableId in Class: com.dataway.cn.vo.JobAndTrigger.
+2020-08-13 20:36:21 [ WARN ] [SpringContextShutdownHook] [ org.springframework.beans.factory.support.DisposableBeanAdapter:346 ] invokeCustomDestroyMethod Destroy method 'shutdown' on bean with name 'webAppContext' threw an exception
+java.lang.IllegalStateException: the container is not started yet.
+	at net.hasor.core.context.TemplateAppContext.tryShutdown(TemplateAppContext.java:530) ~[hasor-core-4.1.4.jar:?]
+	at net.hasor.core.context.TemplateAppContext.shutdown(TemplateAppContext.java:447) ~[hasor-core-4.1.4.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_31]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:579) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:551) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1091) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:512) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1084) [spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]

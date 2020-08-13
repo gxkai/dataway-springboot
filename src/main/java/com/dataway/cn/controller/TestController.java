@@ -25,7 +25,6 @@ import springfox.documentation.annotations.ApiIgnore;
 @Api(value = "用户Controller",tags = {"测试接口"})
 @RestController
 @RequestMapping("/test")
-@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class TestController {
 
     private static final Logger logger = LoggerFactory.getLogger(TestController.class);
