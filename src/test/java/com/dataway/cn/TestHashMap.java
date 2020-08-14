@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 /**
  * @author phil
@@ -16,31 +17,29 @@ public class TestHashMap {
     private static final Logger logger = LoggerFactory.getLogger(TestHashMap.class);
     @Test
     public void hashMap(){
-        Map<Integer,Object> map = new HashMap<>();
-        map.put(1,1);
-        map.put(5,1);
-        map.put(3,1);
-        map.put(4,1);
-        map.put(2,1);
 
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
-        System.out.println(map);
+        int defaultCap = 1 << 4;
+        int defaultCap2 = 1 << 30;
+        String bin = Integer.toBinaryString(1 << 30);
+
+        System.out.println(bin);
+        System.out.println(defaultCap2 / 1024 /1024);
+
+        Map<String,String> map = new HashMap<>(16,0.75f);
+
+        Object object = new HashMap<>();
+
+        Map<?,?> map1 = (Map<?, ?>) object;
+        map.put("asd","dasd");
+        int hashCode = "asd".hashCode();
+
+        System.out.println(hashCode);
+
+
+
+
+        System.out.println(Objects.hashCode(111));
 
     }
+
 }
